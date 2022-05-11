@@ -1,4 +1,4 @@
 Datasets/
 Reports/
 .ipynb_checkpoints/
-.html
+*.html
