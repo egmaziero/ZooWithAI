@@ -2,3 +2,4 @@ Datasets/
 Reports/
 .ipynb_checkpoints/
 *.html
+*.py
