@@ -3,3 +3,6 @@ Reports/
 .ipynb_checkpoints/
 *.html
 *.py
+*.npy
+*.csv
+*.xlsx

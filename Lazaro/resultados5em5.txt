@@ -1,0 +1,103 @@
+5 em 5 minutos
+
+Animal 95:
+
+Pastejando     55.803196
+Ruminando      22.497897
+Ocio           15.559294
+Outros          3.195963
+Locomovendo     2.144659
+Agua            0.588730
+Ócio            0.210261
+Name: Comportamento, dtype: float64
+
+Animal 93:
+
+Pastejando     58.954350
+Ruminando      20.912993
+Ocio           14.319157
+Outros          3.121342
+Locomovendo     1.482638
+Agua            0.585252
+Outro           0.312134
+Ócio            0.312134
+Name: Comportamento, dtype: float64
+
+Animal 81:
+
+Pastejando     55.931459
+Ruminando      19.771529
+Ocio           17.091388
+Outros          4.525483
+Locomovendo     1.405975
+Agua            0.702988
+Ócio            0.439367
+Outro           0.131810
+Name: Comportamento, dtype: float64
+
+Animal 84:
+
+Pastejando     54.914882
+Ruminando      22.185612
+Ocio           17.847337
+Outros          2.635914
+Locomovendo     0.933553
+Ócio            0.713893
+Agua            0.494234
+Outro           0.274574
+Name: Comportamento, dtype: float64
+
+Animal 21:
+
+Pastejando     62.681469
+Ocio           18.018787
+Ruminando      14.432109
+Outros          1.878736
+Locomovendo     1.622545
+Ócio            1.280956
+Agua            0.085397
+Name: Comportamento, dtype: float64
+
+Animal 22:
+
+Pastejando     49.913793
+Ruminando      26.206897
+Ocio           16.810345
+Outros          3.362069
+Locomovendo     2.068966
+Ócio            1.465517
+Agua            0.172414
+Name: Comportamento, dtype: float64
+
+Animal 90:
+
+Pastejando     43.823529
+Ocio           30.588235
+Ruminando      19.558824
+Locomovendo     2.352941
+Outros          2.205882
+Outro           1.176471
+Agua            0.294118
+Name: Comportamento, dtype: float64
+
+Animal 105:
+
+Pastejando     50.927487
+Ocio           23.946037
+Ruminando      19.561551
+Agua            1.854975
+Locomovendo     1.686341
+Outros          1.349073
+Outro           0.674536
+Name: Comportamento, dtype: float64
+
+Animal 85:
+
+Pastejando     40.723982
+Ruminando      26.244344
+Ocio           18.552036
+Agua            5.429864
+Locomovendo     4.524887
+Outros          4.524887
+Name: Comportamento, dtype: float64
+

@@ -1,0 +1,144 @@
+              precision    recall  f1-score   support
+        Agua       0.31      0.05      0.08       102
+       Cocho       0.47      0.42      0.45      1523
+ Locomovendo       0.50      0.01      0.02        84
+        Ocio       0.74      0.71      0.72      2560
+       Outro       0.64      0.10      0.17        94
+     Pastejo       0.54      0.64      0.59      1997
+   Ruminação       0.75      0.80      0.77      2186
+    accuracy                           0.64      8546
+   macro avg       0.57      0.39      0.40      8546
+weighted avg       0.64      0.64      0.63      8546
+              precision    recall  f1-score   support
+        Agua       0.31      0.05      0.08       102
+       Cocho       0.47      0.42      0.45      1523
+ Locomovendo       0.50      0.01      0.02        84
+        Ocio       0.74      0.71      0.72      2560
+       Outro       0.64      0.10      0.17        94
+     Pastejo       0.54      0.64      0.59      1997
+   Ruminação       0.75      0.80      0.77      2186
+    accuracy                           0.64      8546
+   macro avg       0.57      0.39      0.40      8546
+weighted avg       0.64      0.64      0.63      8546
+0.6439269833840393
+              precision    recall  f1-score   support
+        Agua       0.31      0.05      0.08       102
+       Cocho       0.47      0.42      0.45      1523
+ Locomovendo       0.50      0.01      0.02        84
+        Ocio       0.74      0.71      0.72      2560
+       Outro       0.64      0.10      0.17        94
+     Pastejo       0.54      0.64      0.59      1997
+   Ruminação       0.75      0.80      0.77      2186
+    accuracy                           0.64      8546
+   macro avg       0.57      0.39      0.40      8546
+weighted avg       0.64      0.64      0.63      8546
+0.6439269833840393
+              precision    recall  f1-score   support
+        Agua       0.31      0.05      0.08       102
+       Cocho       0.47      0.42      0.45      1523
+ Locomovendo       0.50      0.01      0.02        84
+        Ocio       0.74      0.71      0.72      2560
+       Outro       0.64      0.10      0.17        94
+     Pastejo       0.54      0.64      0.59      1997
+   Ruminação       0.75      0.80      0.77      2186
+    accuracy                           0.64      8546
+   macro avg       0.57      0.39      0.40      8546
+weighted avg       0.64      0.64      0.63      8546
+64.39269833840393
+              precision    recall  f1-score   support
+        Agua       0.02      0.01      0.01       102
+       Cocho       0.40      0.30      0.35      1523
+ Locomovendo       0.14      0.01      0.02        84
+        Ocio       0.57      0.36      0.44      2560
+       Outro       0.05      0.37      0.09        94
+     Pastejo       0.47      0.54      0.50      1997
+   Ruminação       0.63      0.79      0.70      2186
+    accuracy                           0.49      8546
+   macro avg       0.33      0.34      0.30      8546
+weighted avg       0.52      0.49      0.49      8546
+49.43833372337936
+              precision    recall  f1-score   support
+        Agua       0.52      0.11      0.18       113
+       Cocho       0.47      0.44      0.45      1540
+ Locomovendo       0.00      0.00      0.00        71
+        Ocio       0.72      0.71      0.72      2527
+       Outro       0.47      0.08      0.14        96
+     Pastejo       0.54      0.63      0.58      2019
+   Ruminação       0.76      0.78      0.77      2180
+    accuracy                           0.64      8546
+   macro avg       0.50      0.39      0.41      8546
+weighted avg       0.63      0.64      0.63      8546
+63.84273344254622
+              precision    recall  f1-score   support
+        Agua       0.52      0.14      0.22       108
+       Cocho       0.46      0.41      0.44      1552
+ Locomovendo       0.25      0.01      0.02        77
+        Ocio       0.73      0.72      0.73      2542
+       Outro       0.43      0.10      0.16       105
+     Pastejo       0.54      0.62      0.58      1955
+   Ruminação       0.75      0.80      0.77      2207
+    accuracy                           0.64      8546
+   macro avg       0.53      0.40      0.42      8546
+weighted avg       0.63      0.64      0.63      8546
+64.07676105780482
+              precision    recall  f1-score   support
+        Agua       0.31      0.05      0.08       102
+       Cocho       0.47      0.42      0.45      1523
+ Locomovendo       0.50      0.01      0.02        84
+        Ocio       0.74      0.71      0.72      2560
+       Outro       0.64      0.10      0.17        94
+     Pastejo       0.54      0.64      0.59      1997
+   Ruminação       0.75      0.80      0.77      2186
+    accuracy                           0.64      8546
+   macro avg       0.57      0.39      0.40      8546
+weighted avg       0.64      0.64      0.63      8546
+64.39269833840393
+              precision    recall  f1-score   support
+        Agua       0.21      0.04      0.07        67
+       Cocho       0.49      0.47      0.48      1010
+ Locomovendo       0.25      0.02      0.03        62
+        Ocio       0.75      0.71      0.73      1718
+       Outro       0.57      0.13      0.21        62
+     Pastejo       0.55      0.63      0.59      1316
+   Ruminação       0.75      0.80      0.77      1463
+    accuracy                           0.65      5698
+   macro avg       0.51      0.40      0.41      5698
+weighted avg       0.64      0.65      0.64      5698
+64.82976482976483
+              precision    recall  f1-score   support
+        Agua       0.60      0.08      0.14        38
+       Cocho       0.50      0.48      0.49       520
+ Locomovendo       0.50      0.03      0.05        37
+        Ocio       0.73      0.70      0.71       815
+       Outro       0.50      0.08      0.13        26
+     Pastejo       0.55      0.64      0.59       657
+   Ruminação       0.77      0.80      0.79       756
+    accuracy                           0.65      2849
+   macro avg       0.59      0.40      0.41      2849
+weighted avg       0.65      0.65      0.64      2849
+64.8999648999649
+              precision    recall  f1-score   support
+        Agua       0.36      0.08      0.13       165
+       Cocho       0.47      0.43      0.45      2549
+ Locomovendo       0.11      0.01      0.01       127
+        Ocio       0.74      0.70      0.72      4308
+       Outro       0.55      0.08      0.14       151
+     Pastejo       0.54      0.63      0.58      3301
+   Ruminação       0.76      0.80      0.78      3642
+    accuracy                           0.64     14243
+   macro avg       0.50      0.39      0.40     14243
+weighted avg       0.64      0.64      0.63     14243
+64.18591588850664
+              precision    recall  f1-score   support
+        Agua       0.39      0.11      0.18       230
+       Cocho       0.46      0.43      0.44      3609
+ Locomovendo       0.09      0.01      0.01       180
+        Ocio       0.73      0.69      0.71      5964
+       Outro       0.30      0.05      0.09       221
+     Pastejo       0.53      0.62      0.57      4612
+   Ruminação       0.75      0.80      0.77      5125
+    accuracy                           0.63     19941
+   macro avg       0.46      0.39      0.40     19941
+weighted avg       0.63      0.63      0.63     19941
+63.381976831653375
+wandb: Network error (ConnectionError), entering retry loop.

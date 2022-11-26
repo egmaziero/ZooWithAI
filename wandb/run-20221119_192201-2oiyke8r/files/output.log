@@ -1,0 +1,24 @@
+
+N. samples training 186 , N. samples testing 81
+N. samples training 182 , N. samples testing 78
+[0.27764914 0.08485857 0.07134153 0.04576722 0.04153773 0.02491823
+ 0.02168233 0.01770895 0.01713657 0.01623739 0.01433696 0.01298831
+ 0.01081643 0.00995203 0.00931379]
+/home/caio/anaconda3/lib/python3.9/site-packages/xgboost/compat.py:36: FutureWarning: pandas.Int64Index is deprecated and will be removed from pandas in a future version. Use pandas.Index with the appropriate dtype instead.
+  from pandas import MultiIndex, Int64Index
+[34m[1mwandb[39m[22m:
+[34m[1mwandb[39m[22m: Plotting Ridge.
+[34m[1mwandb[39m[22m: Logged summary metrics.
+[34m[1mwandb[39m[22m: Logged learning curve.
+/home/caio/anaconda3/lib/python3.9/site-packages/wandb/sklearn/calculate/outlier_candidates.py:25: RuntimeWarning: divide by zero encountered in double_scalars
+  mse = np.dot(residuals, residuals) / df
+/home/caio/anaconda3/lib/python3.9/site-packages/wandb/sklearn/calculate/outlier_candidates.py:28: RuntimeWarning: invalid value encountered in sqrt
+  residuals_studentized = residuals / np.sqrt(mse) / np.sqrt(1 - leverage)
+/home/caio/anaconda3/lib/python3.9/site-packages/wandb/sklearn/calculate/outlier_candidates.py:28: RuntimeWarning: invalid value encountered in true_divide
+  residuals_studentized = residuals / np.sqrt(mse) / np.sqrt(1 - leverage)
+/home/caio/anaconda3/lib/python3.9/site-packages/wandb/sklearn/calculate/outlier_candidates.py:30: RuntimeWarning: divide by zero encountered in true_divide
+  distance_ *= leverage / (1 - leverage)
+[34m[1mwandb[39m[22m: Logged outlier candidates.
+[34m[1mwandb[39m[22m: [33mWARNING[39m using only the first 100 datapoints to create chart residuals
+[34m[1mwandb[39m[22m: Logged residuals.
+wandb: Network error (ConnectionError), entering retry loop.

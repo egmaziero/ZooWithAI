@@ -1,0 +1,207 @@
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 28486 entries, 0 to 28485
+Data columns (total 11 columns):
+ #   Column         Non-Null Count  Dtype
+---  ------         --------------  -----
+ 0   Date           28486 non-null  object
+ 1   ax             28486 non-null  int64
+ 2   ay             28486 non-null  int64
+ 3   az             28486 non-null  int64
+ 4   gx             28486 non-null  int64
+ 5   gy             28486 non-null  int64
+ 6   gz             28486 non-null  int64
+ 7   axc            28486 non-null  float64
+ 8   ayc            28486 non-null  float64
+ 9   azc            28486 non-null  float64
+ 10  Comportamento  28486 non-null  object
+dtypes: float64(3), int64(6), object(2)
+memory usage: 2.6+ MB
+Error in callback <function flush_figures at 0x7fb7885e9790> (for post_execute):
+wandb: Network error (ConnectionError), entering retry loop.
+wandb: Network error (ConnectionError), entering retry loop.
+/home/caio/anaconda3/lib/python3.9/site-packages/sklearn/base.py:443: UserWarning: X has feature names, but MinMaxScaler was fitted without feature names
+  warnings.warn(
+              precision    recall  f1-score   support
+        Agua       0.39      0.11      0.18       230
+       Cocho       0.46      0.43      0.44      3609
+ Locomovendo       0.09      0.01      0.01       180
+        Ocio       0.73      0.69      0.71      5964
+       Outro       0.30      0.05      0.09       221
+     Pastejo       0.53      0.62      0.57      4612
+   Ruminação       0.75      0.80      0.77      5125
+    accuracy                           0.63     19941
+   macro avg       0.46      0.39      0.40     19941
+weighted avg       0.63      0.63      0.63     19941
+63.3970212125771
+              precision    recall  f1-score   support
+        Agua       0.21      0.24      0.22       230
+       Cocho       0.42      0.50      0.45      3609
+ Locomovendo       0.07      0.01      0.02       180
+        Ocio       0.65      0.73      0.69      5964
+       Outro       0.25      0.12      0.16       221
+     Pastejo       0.55      0.45      0.49      4612
+   Ruminação       0.78      0.72      0.75      5125
+    accuracy                           0.60     19941
+   macro avg       0.42      0.40      0.40     19941
+weighted avg       0.60      0.60      0.60     19941
+60.29286394864851
+              precision    recall  f1-score   support
+        Agua       0.23      0.25      0.24       230
+       Cocho       0.42      0.51      0.46      3609
+ Locomovendo       0.04      0.01      0.01       180
+        Ocio       0.65      0.73      0.69      5964
+       Outro       0.22      0.08      0.12       221
+     Pastejo       0.55      0.44      0.49      4612
+   Ruminação       0.78      0.72      0.75      5125
+    accuracy                           0.60     19941
+   macro avg       0.41      0.39      0.39     19941
+weighted avg       0.60      0.60      0.60     19941
+60.26778998044231
+              precision    recall  f1-score   support
+        Agua       0.14      0.30      0.19       230
+       Cocho       0.39      0.51      0.44      3609
+ Locomovendo       0.06      0.04      0.05       180
+        Ocio       0.67      0.71      0.69      5964
+       Outro       0.25      0.14      0.18       221
+     Pastejo       0.55      0.42      0.48      4612
+   Ruminação       0.78      0.71      0.74      5125
+    accuracy                           0.59     19941
+   macro avg       0.41      0.40      0.40     19941
+weighted avg       0.60      0.59      0.59     19941
+58.93886966551326
+              precision    recall  f1-score   support
+        Agua       0.25      0.19      0.22       230
+       Cocho       0.43      0.49      0.46      3609
+ Locomovendo       0.00      0.00      0.00       180
+        Ocio       0.64      0.74      0.69      5964
+       Outro       0.21      0.05      0.09       221
+     Pastejo       0.55      0.47      0.50      4612
+   Ruminação       0.77      0.73      0.75      5125
+    accuracy                           0.61     19941
+   macro avg       0.41      0.38      0.39     19941
+weighted avg       0.60      0.61      0.60     19941
+60.71410661451281
+/home/caio/anaconda3/lib/python3.9/site-packages/seaborn/_decorators.py:36: FutureWarning: Pass the following variable as a keyword arg: x. From version 0.12, the only valid positional argument will be `data`, and passing other arguments without an explicit keyword will result in an error or misinterpretation.
+  warnings.warn(
+/home/caio/anaconda3/lib/python3.9/site-packages/seaborn/_decorators.py:36: FutureWarning: Pass the following variables as keyword args: x, y. From version 0.12, the only valid positional argument will be `data`, and passing other arguments without an explicit keyword will result in an error or misinterpretation.
+  warnings.warn(
+/home/caio/anaconda3/lib/python3.9/site-packages/seaborn/_decorators.py:36: FutureWarning: Pass the following variables as keyword args: x, y. From version 0.12, the only valid positional argument will be `data`, and passing other arguments without an explicit keyword will result in an error or misinterpretation.
+  warnings.warn(
+/home/caio/anaconda3/lib/python3.9/site-packages/seaborn/_decorators.py:36: FutureWarning: Pass the following variables as keyword args: x, y. From version 0.12, the only valid positional argument will be `data`, and passing other arguments without an explicit keyword will result in an error or misinterpretation.
+  warnings.warn(
+/home/caio/anaconda3/lib/python3.9/site-packages/seaborn/_decorators.py:36: FutureWarning: Pass the following variables as keyword args: x, y. From version 0.12, the only valid positional argument will be `data`, and passing other arguments without an explicit keyword will result in an error or misinterpretation.
+  warnings.warn(
+/home/caio/anaconda3/lib/python3.9/site-packages/seaborn/_decorators.py:36: FutureWarning: Pass the following variable as a keyword arg: x. From version 0.12, the only valid positional argument will be `data`, and passing other arguments without an explicit keyword will result in an error or misinterpretation.
+  warnings.warn(
+/home/caio/anaconda3/lib/python3.9/site-packages/seaborn/_decorators.py:36: FutureWarning: Pass the following variables as keyword args: x, y. From version 0.12, the only valid positional argument will be `data`, and passing other arguments without an explicit keyword will result in an error or misinterpretation.
+  warnings.warn(
+/home/caio/anaconda3/lib/python3.9/site-packages/seaborn/_decorators.py:36: FutureWarning: Pass the following variables as keyword args: x, y. From version 0.12, the only valid positional argument will be `data`, and passing other arguments without an explicit keyword will result in an error or misinterpretation.
+  warnings.warn(
+/home/caio/anaconda3/lib/python3.9/site-packages/seaborn/_decorators.py:36: FutureWarning: Pass the following variables as keyword args: x, y. From version 0.12, the only valid positional argument will be `data`, and passing other arguments without an explicit keyword will result in an error or misinterpretation.
+  warnings.warn(
+Scores: [0.62690058 0.62222222 0.63976608 0.6245614  0.60233918 0.65222482
+ 0.64168618 0.62177986 0.63583138 0.63583138]
+Mean: 0.6303143103660791
+Standard deviation: 0.013134984923812123
+Scores: [0.62690058 0.62222222 0.63976608 0.6245614  0.60233918 0.65222482
+ 0.64168618 0.62177986 0.63583138 0.63583138]
+Mean: 0.6303143103660791
+Standard deviation: 0.013134984923812123
+              precision    recall  f1-score   support
+        Agua       0.39      0.11      0.18       230
+       Cocho       0.46      0.43      0.44      3609
+ Locomovendo       0.09      0.01      0.01       180
+        Ocio       0.73      0.69      0.71      5964
+       Outro       0.30      0.05      0.09       221
+     Pastejo       0.53      0.62      0.57      4612
+   Ruminação       0.75      0.80      0.77      5125
+    accuracy                           0.63     19941
+   macro avg       0.46      0.39      0.40     19941
+weighted avg       0.63      0.63      0.63     19941
+63.3970212125771
+              precision    recall  f1-score   support
+        Agua       0.39      0.11      0.18       230
+       Cocho       0.46      0.43      0.44      3609
+ Locomovendo       0.09      0.01      0.01       180
+        Ocio       0.73      0.69      0.71      5964
+       Outro       0.30      0.05      0.09       221
+     Pastejo       0.53      0.62      0.57      4612
+   Ruminação       0.75      0.80      0.77      5125
+    accuracy                           0.63     19941
+   macro avg       0.46      0.39      0.40     19941
+weighted avg       0.63      0.63      0.63     19941
+63.3970212125771
+Scores: [0.62690058 0.62222222 0.63976608 0.6245614  0.60233918 0.65222482
+ 0.64168618 0.62177986 0.63583138 0.63583138]
+Mean: 0.6303143103660791
+Standard deviation: 0.013134984923812123
+Scores: [62.69005848 62.22222222 63.97660819 62.45614035 60.23391813 65.22248244
+ 64.16861827 62.17798595 63.58313817 63.58313817]
+Mean: 63.03143103660791
+Standard deviation: 1.3134984923812125
+Scores: [60.23391813 60.11695906 61.98830409 57.77777778 59.88304094 60.88992974
+ 60.53864169 58.66510539 60.6557377  60.07025761]
+Mean: 60.08196721311475
+Standard deviation: 1.1047848922297208
+              precision    recall  f1-score   support
+        Agua       0.21      0.24      0.22       230
+       Cocho       0.42      0.50      0.45      3609
+ Locomovendo       0.07      0.01      0.02       180
+        Ocio       0.65      0.73      0.69      5964
+       Outro       0.25      0.12      0.16       221
+     Pastejo       0.55      0.45      0.49      4612
+   Ruminação       0.78      0.72      0.75      5125
+    accuracy                           0.60     19941
+   macro avg       0.42      0.40      0.40     19941
+weighted avg       0.60      0.60      0.60     19941
+60.29286394864851
+              precision    recall  f1-score   support
+        Agua       0.39      0.11      0.18       230
+       Cocho       0.46      0.43      0.44      3609
+ Locomovendo       0.09      0.01      0.01       180
+        Ocio       0.73      0.69      0.71      5964
+       Outro       0.30      0.05      0.09       221
+     Pastejo       0.53      0.62      0.57      4612
+   Ruminação       0.75      0.80      0.77      5125
+    accuracy                           0.63     19941
+   macro avg       0.46      0.39      0.40     19941
+weighted avg       0.63      0.63      0.63     19941
+63.3970212125771
+/home/caio/anaconda3/lib/python3.9/site-packages/seaborn/_decorators.py:36: FutureWarning: Pass the following variable as a keyword arg: x. From version 0.12, the only valid positional argument will be `data`, and passing other arguments without an explicit keyword will result in an error or misinterpretation.
+  warnings.warn(
+              precision    recall  f1-score   support
+        Agua       0.21      0.24      0.22       230
+       Cocho       0.42      0.50      0.45      3609
+ Locomovendo       0.07      0.01      0.02       180
+        Ocio       0.65      0.73      0.69      5964
+       Outro       0.25      0.12      0.16       221
+     Pastejo       0.55      0.45      0.49      4612
+   Ruminação       0.78      0.72      0.75      5125
+    accuracy                           0.60     19941
+   macro avg       0.42      0.40      0.40     19941
+weighted avg       0.60      0.60      0.60     19941
+60.29286394864851
+              precision    recall  f1-score   support
+        Agua       0.39      0.11      0.18       230
+       Cocho       0.46      0.43      0.44      3609
+ Locomovendo       0.09      0.01      0.01       180
+        Ocio       0.73      0.69      0.71      5964
+       Outro       0.30      0.05      0.09       221
+     Pastejo       0.53      0.62      0.57      4612
+   Ruminação       0.75      0.80      0.77      5125
+    accuracy                           0.63     19941
+   macro avg       0.46      0.39      0.40     19941
+weighted avg       0.63      0.63      0.63     19941
+63.3970212125771
+              precision    recall  f1-score   support
+        Agua       0.21      0.24      0.22       230
+       Cocho       0.42      0.50      0.45      3609
+ Locomovendo       0.07      0.01      0.02       180
+        Ocio       0.65      0.73      0.69      5964
+       Outro       0.25      0.12      0.16       221
+     Pastejo       0.55      0.45      0.49      4612
+   Ruminação       0.78      0.72      0.75      5125
+    accuracy                           0.60     19941
+   macro avg       0.42      0.40      0.40     19941
+weighted avg       0.60      0.60      0.60     19941
+60.29286394864851

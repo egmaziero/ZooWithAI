@@ -1,0 +1,883 @@
+ax      ay      az      gx      gy      gz      axc        ayc        azc
+-32450  -14667  -30903   9831    32767  -18350  -1.980591  -0.895203  -1.886169    0.000117
+ 11580  -8661    7041    759     571    -373     0.706787  -0.528625   0.429749    0.000117
+ 11599  -1849    9796   -1334   -1994    289     0.707947  -0.112854   0.597900    0.000117
+ 11596   8601    11875   5253    398     1192    0.707764   0.524963   0.724792    0.000117
+         5722    5409   -13572  -1475    11564   0.707764   0.349243   0.330139    0.000117
+                                                                                     ...
+ 6303    2549    14603   150    -304    -28      0.384705   0.155579   0.891296    0.000117
+ 6299    12029   10763  -39      4251   -2493    0.384460   0.734192   0.656921    0.000117
+         5107    14724   4630   -45      5062    0.384460   0.311707   0.898682    0.000117
+ 6295    9043    11984   5198    1733   -340     0.384216   0.551941   0.731445    0.000117
+ 30658   32334  -22986  -32768   32767   1300    1.871216   1.973511  -1.402954    0.000117
+Length: 8545, dtype: float64
+Ocio           0.291281
+Ruminação      0.264833
+Pastejo        0.225161
+Cocho          0.182563
+Agua           0.014511
+Outro          0.012171
+Locomovendo    0.009479
+Name: Comportamento, dtype: float64
+              precision    recall  f1-score   support
+        Agua       0.39      0.11      0.18       230
+       Cocho       0.46      0.43      0.44      3609
+ Locomovendo       0.09      0.01      0.01       180
+        Ocio       0.73      0.69      0.71      5964
+       Outro       0.30      0.05      0.09       221
+     Pastejo       0.53      0.62      0.57      4612
+   Ruminação       0.75      0.80      0.77      5125
+    accuracy                           0.63     19941
+   macro avg       0.46      0.39      0.40     19941
+weighted avg       0.63      0.63      0.63     19941
+63.381976831653375
+[34m[1mwandb[39m[22m:
+[34m[1mwandb[39m[22m: Plotting Random Forest.
+/home/caio/anaconda3/lib/python3.9/site-packages/sklearn/base.py:450: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+[34m[1mwandb[39m[22m: Logged feature importances.
+[34m[1mwandb[39m[22m: Logged confusion matrix.
+/home/caio/anaconda3/lib/python3.9/site-packages/sklearn/base.py:450: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+[34m[1mwandb[39m[22m: Logged summary metrics.
+[34m[1mwandb[39m[22m: Logged class proportions.
+/home/caio/anaconda3/lib/python3.9/site-packages/sklearn/base.py:450: UserWarning: X does not have valid feature names, but RandomForestClassifier was fitted with feature names
+  warnings.warn(
+[34m[1mwandb[39m[22m: [33mWARNING[39m This function only supports binary classification at the moment and therefore expects labels to be binary. Skipping calibration curve.
+[34m[1mwandb[39m[22m: Logged calibration curve.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb.plots.* functions are deprecated and will be removed in a future release. Please use wandb.plot.* instead.
+[34m[1mwandb[39m[22m: Logged roc curve.
+[34m[1mwandb[39m[22m: Logged precision-recall curve.
+              precision    recall  f1-score   support
+        Agua       0.25      0.08      0.12       230
+       Cocho       0.39      0.37      0.38      3609
+ Locomovendo       0.06      0.01      0.02       180
+        Ocio       0.67      0.65      0.66      5964
+       Outro       0.33      0.06      0.11       221
+     Pastejo       0.48      0.53      0.51      4612
+   Ruminação       0.71      0.76      0.74      5125
+    accuracy                           0.58     19941
+   macro avg       0.41      0.35      0.36     19941
+weighted avg       0.57      0.58      0.58     19941
+58.23679855573943
+              precision    recall  f1-score   support
+        Agua       0.08      0.13      0.10       230
+       Cocho       0.36      0.49      0.42      3609
+ Locomovendo       0.03      0.01      0.01       180
+        Ocio       0.17      0.06      0.09      5964
+       Outro       0.06      0.54      0.11       221
+     Pastejo       0.37      0.34      0.36      4612
+   Ruminação       0.49      0.59      0.53      5125
+    accuracy                           0.35     19941
+   macro avg       0.22      0.31      0.23     19941
+weighted avg       0.33      0.35      0.32     19941
+34.556942981796304
+              precision    recall  f1-score   support
+        Agua       0.05      0.00      0.01       230
+       Cocho       0.24      0.18      0.21      3609
+ Locomovendo       0.05      0.01      0.02       180
+        Ocio       0.57      0.55      0.56      5964
+       Outro       0.04      0.00      0.01       221
+     Pastejo       0.37      0.44      0.40      4612
+   Ruminação       0.39      0.44      0.41      5125
+    accuracy                           0.41     19941
+   macro avg       0.24      0.23      0.23     19941
+weighted avg       0.40      0.41      0.41     19941
+41.42721027029738
+              precision    recall  f1-score   support
+        Agua       0.48      0.09      0.15       230
+       Cocho       0.46      0.42      0.44      3609
+ Locomovendo       0.14      0.01      0.01       180
+        Ocio       0.73      0.68      0.71      5964
+       Outro       0.37      0.03      0.06       221
+     Pastejo       0.53      0.62      0.57      4612
+   Ruminação       0.74      0.80      0.77      5125
+    accuracy                           0.63     19941
+   macro avg       0.49      0.38      0.39     19941
+weighted avg       0.63      0.63      0.62     19941
+63.281680958828545
+              precision    recall  f1-score   support
+        Agua       0.48      0.09      0.15       230
+       Cocho       0.46      0.42      0.44      3609
+ Locomovendo       0.14      0.01      0.01       180
+        Ocio       0.73      0.68      0.71      5964
+       Outro       0.37      0.03      0.06       221
+     Pastejo       0.53      0.62      0.57      4612
+   Ruminação       0.74      0.80      0.77      5125
+    accuracy                           0.63     19941
+   macro avg       0.49      0.38      0.39     19941
+weighted avg       0.63      0.63      0.62     19941
+63.281680958828545
+              precision    recall  f1-score   support
+        Agua       0.48      0.09      0.15       230
+       Cocho       0.46      0.42      0.44      3609
+ Locomovendo       0.14      0.01      0.01       180
+        Ocio       0.73      0.68      0.71      5964
+       Outro       0.37      0.03      0.06       221
+     Pastejo       0.53      0.62      0.57      4612
+   Ruminação       0.74      0.80      0.77      5125
+    accuracy                           0.63     19941
+   macro avg       0.49      0.38      0.39     19941
+weighted avg       0.63      0.63      0.62     19941
+63.281680958828545
+              precision    recall  f1-score   support
+        Agua       0.48      0.09      0.15       230
+       Cocho       0.46      0.42      0.44      3609
+ Locomovendo       0.14      0.01      0.01       180
+        Ocio       0.73      0.68      0.71      5964
+       Outro       0.37      0.03      0.06       221
+     Pastejo       0.53      0.62      0.57      4612
+   Ruminação       0.74      0.80      0.77      5125
+    accuracy                           0.63     19941
+   macro avg       0.49      0.38      0.39     19941
+weighted avg       0.63      0.63      0.62     19941
+63.281680958828545
+              precision    recall  f1-score   support
+        Agua       0.48      0.09      0.15       230
+       Cocho       0.46      0.42      0.44      3609
+ Locomovendo       0.14      0.01      0.01       180
+        Ocio       0.73      0.68      0.71      5964
+       Outro       0.37      0.03      0.06       221
+     Pastejo       0.53      0.62      0.57      4612
+   Ruminação       0.74      0.80      0.77      5125
+    accuracy                           0.63     19941
+   macro avg       0.49      0.38      0.39     19941
+weighted avg       0.63      0.63      0.62     19941
+63.281680958828545
+              precision    recall  f1-score   support
+        Agua       0.39      0.11      0.18       230
+       Cocho       0.46      0.43      0.44      3609
+ Locomovendo       0.09      0.01      0.01       180
+        Ocio       0.73      0.69      0.71      5964
+       Outro       0.30      0.05      0.09       221
+     Pastejo       0.53      0.62      0.57      4612
+   Ruminação       0.75      0.80      0.77      5125
+    accuracy                           0.63     19941
+   macro avg       0.46      0.39      0.40     19941
+weighted avg       0.63      0.63      0.63     19941
+63.381976831653375
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 28486 entries, 0 to 28485
+Data columns (total 11 columns):
+ #   Column         Non-Null Count  Dtype
+---  ------         --------------  -----
+ 0   Date           28486 non-null  object
+ 1   ax             28486 non-null  int64
+ 2   ay             28486 non-null  int64
+ 3   az             28486 non-null  int64
+ 4   gx             28486 non-null  int64
+ 5   gy             28486 non-null  int64
+ 6   gz             28486 non-null  int64
+ 7   axc            28486 non-null  float64
+ 8   ayc            28486 non-null  float64
+ 9   azc            28486 non-null  float64
+ 10  Comportamento  28486 non-null  object
+dtypes: float64(3), int64(6), object(2)
+memory usage: 2.6+ MB
+Iteration No: 1 started. Evaluating function at random point.
+[True, None, 4, 10, 100]
+Iteration No: 1 started. Evaluating function at random point.
+[True, None, 4, 10, 100]
+Iteration No: 1 started. Evaluating function at random point.
+[True, None, 4, 10, 100]
+Iteration No: 1 started. Evaluating function at random point.
+[True, None, 4, 10, 100]
+Iteration No: 1 started. Evaluating function at random point.
+[True, None, 4, 10, 100]
+Iteration No: 1 started. Evaluating function at random point.
+[True, None, 4, 10, 100]
+Iteration No: 1 ended. Evaluation done at random point.
+Time taken: 2.2405
+Function value obtained: -0.6362
+Current minimum: -0.6362
+Iteration No: 2 started. Evaluating function at random point.
+[False, 20, 1, 5, 50]
+Iteration No: 2 ended. Evaluation done at random point.
+Time taken: 1.2545
+Function value obtained: -0.6209
+Current minimum: -0.6362
+Iteration No: 3 started. Evaluating function at random point.
+[True, 20, 2, 10, 20]
+Iteration No: 3 ended. Evaluation done at random point.
+Time taken: 0.4533
+Function value obtained: -0.6303
+Current minimum: -0.6362
+Iteration No: 4 started. Evaluating function at random point.
+[True, 20, 4, 2, 200]
+Iteration No: 4 ended. Evaluation done at random point.
+Time taken: 2.8160
+Function value obtained: -0.6332
+Current minimum: -0.6362
+Iteration No: 5 started. Evaluating function at random point.
+[False, 30, 2, 5, 100]
+Iteration No: 5 ended. Evaluation done at random point.
+Time taken: 2.2839
+Function value obtained: -0.6249
+Current minimum: -0.6362
+Iteration No: 6 started. Evaluating function at random point.
+[True, 30, 4, 2, 50]
+Iteration No: 6 ended. Evaluation done at random point.
+Time taken: 0.8333
+Function value obtained: -0.6314
+Current minimum: -0.6362
+Iteration No: 7 started. Evaluating function at random point.
+[False, 30, 1, 2, 20]
+Iteration No: 7 ended. Evaluation done at random point.
+Time taken: 0.6347
+Function value obtained: -0.6106
+Current minimum: -0.6362
+Iteration No: 8 started. Evaluating function at random point.
+[False, 20, 2, 10, 50]
+Iteration No: 8 ended. Evaluation done at random point.
+Time taken: 1.2302
+Function value obtained: -0.6288
+Current minimum: -0.6362
+Iteration No: 9 started. Evaluating function at random point.
+[True, None, 1, 10, 100]
+Iteration No: 9 ended. Evaluation done at random point.
+Time taken: 1.5733
+Function value obtained: -0.6329
+Current minimum: -0.6362
+Iteration No: 10 started. Evaluating function at random point.
+[False, 20, 4, 5, 20]
+Iteration No: 10 ended. Evaluation done at random point.
+Time taken: 0.5705
+Function value obtained: -0.6243
+Current minimum: -0.6362
+Iteration No: 11 started. Evaluating function at random point.
+[False, 30, 4, 5, 100]
+Iteration No: 11 ended. Evaluation done at random point.
+Time taken: 2.1804
+Function value obtained: -0.6301
+Current minimum: -0.6362
+Iteration No: 12 started. Evaluating function at random point.
+[True, 30, 2, 5, 100]
+Iteration No: 12 ended. Evaluation done at random point.
+Time taken: 1.5695
+Function value obtained: -0.6293
+Current minimum: -0.6362
+Iteration No: 13 started. Evaluating function at random point.
+[False, 30, 2, 10, 300]
+Iteration No: 13 ended. Evaluation done at random point.
+Time taken: 6.2269
+Function value obtained: -0.6316
+Current minimum: -0.6362
+Iteration No: 14 started. Evaluating function at random point.
+[True, 10, 2, 5, 300]
+Iteration No: 14 ended. Evaluation done at random point.
+Time taken: 3.5556
+Function value obtained: -0.6253
+Current minimum: -0.6362
+Iteration No: 15 started. Evaluating function at random point.
+[True, 30, 1, 5, 5]
+Iteration No: 15 ended. Evaluation done at random point.
+Time taken: 0.2122
+Function value obtained: -0.5875
+Current minimum: -0.6362
+Iteration No: 16 started. Evaluating function at random point.
+[False, None, 2, 5, 100]
+Iteration No: 16 ended. Evaluation done at random point.
+Time taken: 2.3082
+Function value obtained: -0.6256
+Current minimum: -0.6362
+Iteration No: 17 started. Evaluating function at random point.
+[True, None, 1, 5, 200]
+Iteration No: 17 ended. Evaluation done at random point.
+Time taken: 3.0706
+Function value obtained: -0.6345
+Current minimum: -0.6362
+Iteration No: 18 started. Evaluating function at random point.
+[True, None, 4, 2, 20]
+Iteration No: 18 ended. Evaluation done at random point.
+Time taken: 0.4395
+Function value obtained: -0.6267
+Current minimum: -0.6362
+Iteration No: 19 started. Evaluating function at random point.
+[False, None, 2, 10, 20]
+Iteration No: 19 ended. Evaluation done at random point.
+Time taken: 0.6203
+Function value obtained: -0.6253
+Current minimum: -0.6362
+Iteration No: 20 started. Evaluating function at random point.
+[False, 30, 1, 5, 10]
+Iteration No: 20 ended. Evaluation done at random point.
+Time taken: 0.8241
+Function value obtained: -0.6132
+Current minimum: -0.6362
+Iteration No: 21 started. Searching for the next optimal point.
+[False, None, 1, 5, 200]
+Iteration No: 21 ended. Search finished for the next optimal point.
+Time taken: 4.8976
+Function value obtained: -0.6261
+Current minimum: -0.6362
+Iteration No: 22 started. Searching for the next optimal point.
+[False, None, 4, 10, 100]
+Iteration No: 22 ended. Search finished for the next optimal point.
+Time taken: 2.4892
+Function value obtained: -0.6269
+Current minimum: -0.6362
+Iteration No: 23 started. Searching for the next optimal point.
+[False, 10, 4, 10, 200]
+Iteration No: 23 ended. Search finished for the next optimal point.
+Time taken: 3.6701
+Function value obtained: -0.6256
+Current minimum: -0.6362
+Iteration No: 24 started. Searching for the next optimal point.
+[True, 10, 1, 2, 10]
+Iteration No: 24 ended. Search finished for the next optimal point.
+Time taken: 0.6711
+Function value obtained: -0.6115
+Current minimum: -0.6362
+Iteration No: 25 started. Searching for the next optimal point.
+[True, 10, 4, 5, 100]
+Iteration No: 25 ended. Search finished for the next optimal point.
+Time taken: 1.8454
+Function value obtained: -0.6260
+Current minimum: -0.6362
+Iteration No: 26 started. Searching for the next optimal point.
+[True, None, 2, 2, 300]
+Iteration No: 26 ended. Search finished for the next optimal point.
+Time taken: 4.9069
+Function value obtained: -0.6339
+Current minimum: -0.6362
+Iteration No: 27 started. Searching for the next optimal point.
+[False, 10, 2, 10, 200]
+Iteration No: 27 ended. Search finished for the next optimal point.
+Time taken: 3.7430
+Function value obtained: -0.6225
+Current minimum: -0.6362
+Iteration No: 28 started. Searching for the next optimal point.
+[True, 20, 1, 10, 200]
+Iteration No: 28 ended. Search finished for the next optimal point.
+Time taken: 3.4822
+Function value obtained: -0.6317
+Current minimum: -0.6362
+Iteration No: 29 started. Searching for the next optimal point.
+[True, None, 4, 10, 300]
+Iteration No: 29 ended. Search finished for the next optimal point.
+Time taken: 4.5574
+Function value obtained: -0.6332
+Current minimum: -0.6362
+Iteration No: 30 started. Searching for the next optimal point.
+[False, 10, 1, 5, 300]
+Iteration No: 30 ended. Search finished for the next optimal point.
+Time taken: 5.4709
+Function value obtained: -0.6260
+Current minimum: -0.6362
+Iteration No: 31 started. Searching for the next optimal point.
+[True, None, 2, 5, 20]
+Iteration No: 31 ended. Search finished for the next optimal point.
+Time taken: 0.8742
+Function value obtained: -0.6254
+Current minimum: -0.6362
+Iteration No: 32 started. Searching for the next optimal point.
+[True, None, 4, 10, 50]
+Iteration No: 32 ended. Search finished for the next optimal point.
+Time taken: 1.3661
+Function value obtained: -0.6352
+Current minimum: -0.6362
+Iteration No: 33 started. Searching for the next optimal point.
+[True, 20, 4, 10, 100]
+Iteration No: 33 ended. Search finished for the next optimal point.
+Time taken: 2.0862
+Function value obtained: -0.6348
+Current minimum: -0.6362
+Iteration No: 34 started. Searching for the next optimal point.
+[True, None, 1, 2, 20]
+Iteration No: 34 ended. Search finished for the next optimal point.
+Time taken: 1.2867
+Function value obtained: -0.6242
+Current minimum: -0.6362
+Iteration No: 35 started. Searching for the next optimal point.
+[True, None, 4, 10, 200]
+Iteration No: 35 ended. Search finished for the next optimal point.
+Time taken: 3.3885
+Function value obtained: -0.6339
+Current minimum: -0.6362
+Iteration No: 36 started. Searching for the next optimal point.
+[True, 20, 2, 5, 300]
+Iteration No: 36 ended. Search finished for the next optimal point.
+Time taken: 4.8453
+Function value obtained: -0.6323
+Current minimum: -0.6362
+Iteration No: 37 started. Searching for the next optimal point.
+[True, 20, 4, 10, 50]
+Iteration No: 37 ended. Search finished for the next optimal point.
+Time taken: 1.3365
+Function value obtained: -0.6346
+Current minimum: -0.6362
+Iteration No: 38 started. Searching for the next optimal point.
+[False, 30, 4, 10, 50]
+Iteration No: 38 ended. Search finished for the next optimal point.
+Time taken: 1.6883
+Function value obtained: -0.6289
+Current minimum: -0.6362
+Iteration No: 39 started. Searching for the next optimal point.
+[True, 20, 4, 10, 10]
+Iteration No: 39 ended. Search finished for the next optimal point.
+Time taken: 0.8230
+Function value obtained: -0.6184
+Current minimum: -0.6362
+Iteration No: 40 started. Searching for the next optimal point.
+[False, 20, 4, 2, 300]
+Iteration No: 40 ended. Search finished for the next optimal point.
+Time taken: 6.5487
+Function value obtained: -0.6318
+Current minimum: -0.6362
+Iteration No: 41 started. Searching for the next optimal point.
+[True, 30, 4, 5, 200]
+Iteration No: 41 ended. Search finished for the next optimal point.
+Time taken: 3.4769
+Function value obtained: -0.6335
+Current minimum: -0.6362
+Iteration No: 42 started. Searching for the next optimal point.
+[True, 30, 4, 10, 300]
+Iteration No: 42 ended. Search finished for the next optimal point.
+Time taken: 5.5107
+Function value obtained: -0.6331
+Current minimum: -0.6362
+Iteration No: 43 started. Searching for the next optimal point.
+[True, None, 4, 10, 50]
+/home/caio/anaconda3/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
+Iteration No: 43 ended. Search finished for the next optimal point.
+Time taken: 1.7059
+Function value obtained: -0.6352
+Current minimum: -0.6362
+Iteration No: 44 started. Searching for the next optimal point.
+[True, None, 4, 2, 100]
+Iteration No: 44 ended. Search finished for the next optimal point.
+Time taken: 2.2601
+Function value obtained: -0.6335
+Current minimum: -0.6362
+Iteration No: 45 started. Searching for the next optimal point.
+[False, None, 4, 5, 300]
+Iteration No: 45 ended. Search finished for the next optimal point.
+Time taken: 6.9794
+Function value obtained: -0.6308
+Current minimum: -0.6362
+Iteration No: 46 started. Searching for the next optimal point.
+[True, 20, 4, 2, 300]
+Iteration No: 46 ended. Search finished for the next optimal point.
+Time taken: 4.8575
+Function value obtained: -0.6332
+Current minimum: -0.6362
+Iteration No: 47 started. Searching for the next optimal point.
+[True, 10, 2, 10, 50]
+Iteration No: 47 ended. Search finished for the next optimal point.
+Time taken: 1.3405
+Function value obtained: -0.6239
+Current minimum: -0.6362
+Iteration No: 48 started. Searching for the next optimal point.
+[True, 30, 1, 2, 200]
+Iteration No: 48 ended. Search finished for the next optimal point.
+Time taken: 3.9107
+Function value obtained: -0.6324
+Current minimum: -0.6362
+Iteration No: 49 started. Searching for the next optimal point.
+[True, 30, 4, 10, 100]
+Iteration No: 49 ended. Search finished for the next optimal point.
+Time taken: 2.0667
+Function value obtained: -0.6363
+Current minimum: -0.6363
+Iteration No: 50 started. Searching for the next optimal point.
+[True, 20, 1, 10, 300]
+Iteration No: 50 ended. Search finished for the next optimal point.
+Time taken: 4.9537
+Function value obtained: -0.6339
+Current minimum: -0.6363
+Iteration No: 51 started. Searching for the next optimal point.
+[True, 20, 4, 10, 100]
+/home/caio/anaconda3/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
+Iteration No: 51 ended. Search finished for the next optimal point.
+Time taken: 2.1831
+Function value obtained: -0.6348
+Current minimum: -0.6363
+Iteration No: 52 started. Searching for the next optimal point.
+[True, None, 2, 10, 10]
+Iteration No: 52 ended. Search finished for the next optimal point.
+Time taken: 0.9613
+Function value obtained: -0.6151
+Current minimum: -0.6363
+Iteration No: 53 started. Searching for the next optimal point.
+[False, 20, 4, 10, 5]
+Iteration No: 53 ended. Search finished for the next optimal point.
+Time taken: 0.9381
+Function value obtained: -0.6104
+Current minimum: -0.6363
+Iteration No: 54 started. Searching for the next optimal point.
+[False, 20, 4, 10, 300]
+Iteration No: 54 ended. Search finished for the next optimal point.
+Time taken: 6.6546
+Function value obtained: -0.6329
+Current minimum: -0.6363
+Iteration No: 55 started. Searching for the next optimal point.
+[True, None, 2, 2, 50]
+Iteration No: 55 ended. Search finished for the next optimal point.
+Time taken: 1.4983
+Function value obtained: -0.6293
+Current minimum: -0.6363
+Iteration No: 56 started. Searching for the next optimal point.
+[True, 20, 2, 10, 300]
+Iteration No: 56 ended. Search finished for the next optimal point.
+Time taken: 4.9428
+Function value obtained: -0.6351
+Current minimum: -0.6363
+Iteration No: 57 started. Searching for the next optimal point.
+[False, 20, 2, 5, 300]
+Iteration No: 57 ended. Search finished for the next optimal point.
+Time taken: 7.1385
+Function value obtained: -0.6310
+Current minimum: -0.6363
+Iteration No: 58 started. Searching for the next optimal point.
+[True, 10, 4, 10, 20]
+Iteration No: 58 ended. Search finished for the next optimal point.
+Time taken: 1.0389
+Function value obtained: -0.6236
+Current minimum: -0.6363
+Iteration No: 59 started. Searching for the next optimal point.
+[True, None, 2, 5, 200]
+Iteration No: 59 ended. Search finished for the next optimal point.
+Time taken: 3.6491
+Function value obtained: -0.6342
+Current minimum: -0.6363
+Iteration No: 60 started. Searching for the next optimal point.
+[False, None, 4, 2, 50]
+Iteration No: 60 ended. Search finished for the next optimal point.
+Time taken: 1.8703
+Function value obtained: -0.6272
+Current minimum: -0.6363
+Iteration No: 61 started. Searching for the next optimal point.
+[False, 20, 4, 2, 200]
+Iteration No: 61 ended. Search finished for the next optimal point.
+Time taken: 5.0193
+Function value obtained: -0.6309
+Current minimum: -0.6363
+Iteration No: 62 started. Searching for the next optimal point.
+[False, 20, 4, 2, 10]
+Iteration No: 62 ended. Search finished for the next optimal point.
+Time taken: 1.0751
+Function value obtained: -0.6225
+Current minimum: -0.6363
+Iteration No: 63 started. Searching for the next optimal point.
+[True, 30, 1, 10, 50]
+Iteration No: 63 ended. Search finished for the next optimal point.
+Time taken: 1.5505
+Function value obtained: -0.6311
+Current minimum: -0.6363
+Iteration No: 64 started. Searching for the next optimal point.
+[True, None, 4, 5, 100]
+Iteration No: 64 ended. Search finished for the next optimal point.
+Time taken: 2.2068
+Function value obtained: -0.6335
+Current minimum: -0.6363
+Iteration No: 65 started. Searching for the next optimal point.
+[True, None, 4, 5, 50]
+Iteration No: 65 ended. Search finished for the next optimal point.
+Time taken: 1.5450
+Function value obtained: -0.6311
+Current minimum: -0.6363
+Iteration No: 66 started. Searching for the next optimal point.
+[True, 10, 4, 5, 200]
+Iteration No: 66 ended. Search finished for the next optimal point.
+Time taken: 3.1378
+Function value obtained: -0.6268
+Current minimum: -0.6363
+Iteration No: 67 started. Searching for the next optimal point.
+[False, 30, 4, 2, 200]
+Iteration No: 67 ended. Search finished for the next optimal point.
+Time taken: 4.9191
+Function value obtained: -0.6316
+Current minimum: -0.6363
+Iteration No: 68 started. Searching for the next optimal point.
+[True, None, 4, 2, 200]
+Iteration No: 68 ended. Search finished for the next optimal point.
+Time taken: 3.6046
+Function value obtained: -0.6334
+Current minimum: -0.6363
+Iteration No: 69 started. Searching for the next optimal point.
+[False, None, 1, 10, 300]
+Iteration No: 69 ended. Search finished for the next optimal point.
+Time taken: 7.2861
+Function value obtained: -0.6281
+Current minimum: -0.6363
+Iteration No: 70 started. Searching for the next optimal point.
+[False, None, 4, 5, 200]
+Iteration No: 70 ended. Search finished for the next optimal point.
+Time taken: 4.9425
+Function value obtained: -0.6315
+Current minimum: -0.6363
+Iteration No: 71 started. Searching for the next optimal point.
+[True, 30, 4, 10, 100]
+/home/caio/anaconda3/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
+Iteration No: 71 ended. Search finished for the next optimal point.
+Time taken: 2.2439
+Function value obtained: -0.6363
+Current minimum: -0.6363
+Iteration No: 72 started. Searching for the next optimal point.
+[False, 30, 2, 5, 50]
+/home/caio/anaconda3/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
+Iteration No: 72 ended. Search finished for the next optimal point.
+Time taken: 2.0964
+Function value obtained: -0.6212
+Current minimum: -0.6363
+Iteration No: 73 started. Searching for the next optimal point.
+[True, 30, 4, 10, 100]
+Iteration No: 73 ended. Search finished for the next optimal point.
+Time taken: 2.3266
+Function value obtained: -0.6363
+Current minimum: -0.6363
+Iteration No: 74 started. Searching for the next optimal point.
+[False, 20, 4, 2, 100]
+Iteration No: 74 ended. Search finished for the next optimal point.
+Time taken: 2.9707
+Function value obtained: -0.6309
+Current minimum: -0.6363
+Iteration No: 75 started. Searching for the next optimal point.
+[True, 30, 4, 10, 100]
+/home/caio/anaconda3/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
+Iteration No: 75 ended. Search finished for the next optimal point.
+Time taken: 2.3248
+Function value obtained: -0.6363
+Current minimum: -0.6363
+Iteration No: 76 started. Searching for the next optimal point.
+[False, 10, 4, 10, 10]
+Iteration No: 76 ended. Search finished for the next optimal point.
+Time taken: 1.1521
+Function value obtained: -0.6129
+Current minimum: -0.6363
+Iteration No: 77 started. Searching for the next optimal point.
+[True, 30, 4, 10, 20]
+/home/caio/anaconda3/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
+Iteration No: 77 ended. Search finished for the next optimal point.
+Time taken: 1.2445
+Function value obtained: -0.6277
+Current minimum: -0.6363
+Iteration No: 78 started. Searching for the next optimal point.
+[True, 30, 4, 10, 100]
+Iteration No: 78 ended. Search finished for the next optimal point.
+Time taken: 2.3336
+Function value obtained: -0.6363
+Current minimum: -0.6363
+Iteration No: 79 started. Searching for the next optimal point.
+[False, None, 2, 2, 5]
+Iteration No: 79 ended. Search finished for the next optimal point.
+Time taken: 1.0987
+Function value obtained: -0.5972
+Current minimum: -0.6363
+Iteration No: 80 started. Searching for the next optimal point.
+[True, 30, 4, 10, 100]
+/home/caio/anaconda3/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
+Iteration No: 80 ended. Search finished for the next optimal point.
+Time taken: 2.3718
+Function value obtained: -0.6363
+Current minimum: -0.6363
+Iteration No: 81 started. Searching for the next optimal point.
+[True, None, 4, 5, 10]
+Iteration No: 81 ended. Search finished for the next optimal point.
+Time taken: 1.1369
+Function value obtained: -0.6213
+Current minimum: -0.6363
+Iteration No: 82 started. Searching for the next optimal point.
+[False, 10, 2, 2, 300]
+Iteration No: 82 ended. Search finished for the next optimal point.
+Time taken: 5.8981
+Function value obtained: -0.6226
+Current minimum: -0.6363
+Iteration No: 83 started. Searching for the next optimal point.
+[True, 30, 2, 10, 200]
+Iteration No: 83 ended. Search finished for the next optimal point.
+Time taken: 3.7932
+Function value obtained: -0.6338
+Current minimum: -0.6363
+Iteration No: 84 started. Searching for the next optimal point.
+[True, None, 2, 10, 300]
+Iteration No: 84 ended. Search finished for the next optimal point.
+Time taken: 5.1796
+Function value obtained: -0.6350
+Current minimum: -0.6363
+Iteration No: 85 started. Searching for the next optimal point.
+[True, None, 1, 2, 300]
+Iteration No: 85 ended. Search finished for the next optimal point.
+Time taken: 5.6196
+Function value obtained: -0.6322
+Current minimum: -0.6363
+Iteration No: 86 started. Searching for the next optimal point.
+[True, 30, 4, 10, 100]
+/home/caio/anaconda3/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
+/home/caio/anaconda3/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
+Iteration No: 86 ended. Search finished for the next optimal point.
+Time taken: 2.4288
+Function value obtained: -0.6363
+Current minimum: -0.6363
+Iteration No: 87 started. Searching for the next optimal point.
+[True, 30, 4, 10, 100]
+/home/caio/anaconda3/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
+Iteration No: 87 ended. Search finished for the next optimal point.
+Time taken: 2.4295
+Function value obtained: -0.6363
+Current minimum: -0.6363
+Iteration No: 88 started. Searching for the next optimal point.
+[True, 30, 4, 10, 100]
+Iteration No: 88 ended. Search finished for the next optimal point.
+Time taken: 2.4267
+Function value obtained: -0.6363
+Current minimum: -0.6363
+Iteration No: 89 started. Searching for the next optimal point.
+[True, None, 2, 10, 100]
+Iteration No: 89 ended. Search finished for the next optimal point.
+Time taken: 2.4918
+Function value obtained: -0.6325
+Current minimum: -0.6363
+Iteration No: 90 started. Searching for the next optimal point.
+[False, 20, 1, 5, 100]
+/home/caio/anaconda3/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
+Iteration No: 90 ended. Search finished for the next optimal point.
+Time taken: 3.3360
+Function value obtained: -0.6199
+Current minimum: -0.6363
+Iteration No: 91 started. Searching for the next optimal point.
+[True, 30, 4, 10, 100]
+Iteration No: 91 ended. Search finished for the next optimal point.
+Time taken: 2.9096
+Function value obtained: -0.6363
+Current minimum: -0.6363
+Iteration No: 92 started. Searching for the next optimal point.
+[True, 20, 1, 2, 50]
+Iteration No: 92 ended. Search finished for the next optimal point.
+Time taken: 2.0239
+Function value obtained: -0.6272
+Current minimum: -0.6363
+Iteration No: 93 started. Searching for the next optimal point.
+[True, 30, 1, 5, 300]
+/home/caio/anaconda3/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
+Iteration No: 93 ended. Search finished for the next optimal point.
+Time taken: 5.6701
+Function value obtained: -0.6344
+Current minimum: -0.6363
+Iteration No: 94 started. Searching for the next optimal point.
+[True, 30, 4, 10, 100]
+Iteration No: 94 ended. Search finished for the next optimal point.
+Time taken: 2.5996
+Function value obtained: -0.6363
+Current minimum: -0.6363
+Iteration No: 95 started. Searching for the next optimal point.
+[True, 30, 2, 2, 20]
+Iteration No: 95 ended. Search finished for the next optimal point.
+Time taken: 1.5109
+Function value obtained: -0.6208
+Current minimum: -0.6363
+Iteration No: 96 started. Searching for the next optimal point.
+[True, 30, 4, 2, 10]
+Iteration No: 96 ended. Search finished for the next optimal point.
+Time taken: 1.3614
+Function value obtained: -0.6213
+Current minimum: -0.6363
+Iteration No: 97 started. Searching for the next optimal point.
+[True, None, 1, 5, 300]
+/home/caio/anaconda3/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
+Iteration No: 97 ended. Search finished for the next optimal point.
+Time taken: 5.6835
+Function value obtained: -0.6338
+Current minimum: -0.6363
+Iteration No: 98 started. Searching for the next optimal point.
+[True, 30, 4, 10, 100]
+/home/caio/anaconda3/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
+Iteration No: 98 ended. Search finished for the next optimal point.
+Time taken: 2.5780
+Function value obtained: -0.6363
+Current minimum: -0.6363
+Iteration No: 99 started. Searching for the next optimal point.
+[True, 30, 4, 10, 100]
+Iteration No: 99 ended. Search finished for the next optimal point.
+Time taken: 2.6043
+Function value obtained: -0.6363
+Current minimum: -0.6363
+Iteration No: 100 started. Searching for the next optimal point.
+[True, 30, 4, 10, 100]
+/home/caio/anaconda3/lib/python3.9/site-packages/skopt/optimizer/optimizer.py:449: UserWarning: The objective has been evaluated at this point before.
+  warnings.warn("The objective has been evaluated "
+Iteration No: 100 ended. Search finished for the next optimal point.
+Time taken: 2.6101
+Function value obtained: -0.6363
+Current minimum: -0.6363
+CPU times: user 3min 8s, sys: 3min 18s, total: 6min 27s
+Wall time: 4min 42s
+/home/caio/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/caio/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/caio/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+        Agua       0.50      0.06      0.11       230
+       Cocho       0.47      0.41      0.44      3609
+ Locomovendo       0.00      0.00      0.00       180
+        Ocio       0.74      0.69      0.71      5964
+       Outro       0.50      0.03      0.05       221
+     Pastejo       0.53      0.64      0.58      4612
+   Ruminação       0.73      0.80      0.77      5125
+    accuracy                           0.63     19941
+   macro avg       0.50      0.38      0.38     19941
+weighted avg       0.63      0.63      0.62     19941
+63.47725791083697
+/home/caio/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/caio/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/caio/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+        Agua       0.50      0.06      0.11       230
+       Cocho       0.47      0.41      0.44      3609
+ Locomovendo       0.00      0.00      0.00       180
+        Ocio       0.74      0.69      0.71      5964
+       Outro       0.50      0.03      0.05       221
+     Pastejo       0.53      0.64      0.58      4612
+   Ruminação       0.73      0.80      0.77      5125
+    accuracy                           0.63     19941
+   macro avg       0.50      0.38      0.38     19941
+weighted avg       0.63      0.63      0.62     19941
+63.47725791083697
+/home/caio/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/caio/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/caio/anaconda3/lib/python3.9/site-packages/sklearn/metrics/_classification.py:1327: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+              precision    recall  f1-score   support
+        Agua       0.54      0.06      0.11       230
+       Cocho       0.48      0.41      0.44      3609
+ Locomovendo       0.00      0.00      0.00       180
+        Ocio       0.74      0.69      0.71      5964
+       Outro       0.50      0.03      0.06       221
+     Pastejo       0.53      0.65      0.58      4612
+   Ruminação       0.74      0.80      0.77      5125
+    accuracy                           0.64     19941
+   macro avg       0.50      0.38      0.38     19941
+weighted avg       0.63      0.64      0.63     19941
+63.74304197382278
+              precision    recall  f1-score   support
+        Agua       0.39      0.11      0.18       230
+       Cocho       0.46      0.43      0.44      3609
+ Locomovendo       0.09      0.01      0.01       180
+        Ocio       0.73      0.69      0.71      5964
+       Outro       0.30      0.05      0.09       221
+     Pastejo       0.53      0.62      0.57      4612
+   Ruminação       0.75      0.80      0.77      5125
+    accuracy                           0.63     19941
+   macro avg       0.46      0.39      0.40     19941
+weighted avg       0.63      0.63      0.63     19941

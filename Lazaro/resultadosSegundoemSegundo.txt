@@ -1,0 +1,105 @@
+Segundo em segundo
+
+Animal 95:
+
+Pastejando     55.652971
+Ruminando      22.553753
+Ocio           15.693704
+Outros          3.186737
+Locomovendo     2.249900
+Agua            0.453217
+Ócio            0.199303
+Outro           0.010416
+Name: Comportamento, dtype: float64
+
+Animal 93:
+
+Pastejando     58.729468
+Ruminando      21.112404
+Ocio           14.466816
+Outros          3.131599
+Locomovendo     1.226834
+Agua            0.627783
+Ócio            0.412166
+Outro           0.292930
+Name: Comportamento, dtype: float64
+
+Animal 81:
+
+Pastejando     56.377618
+Ruminando      19.921088
+Ocio           16.935733
+Outros          4.199167
+Locomovendo     1.565298
+Agua            0.462327
+Ócio            0.404849
+Outro           0.133921
+Name: Comportamento, dtype: float64
+
+Animal 84:
+
+Pastejando     54.861223
+Ruminando      22.589051
+Ocio           17.298928
+Outros          2.392022
+Locomovendo     1.291291
+Ócio            0.731554
+Agua            0.568374
+Outro           0.267557
+Name: Comportamento, dtype: float64
+
+Animal 21:
+
+Pastejando     61.950511
+Ocio           18.587494
+Ruminando      14.252677
+Outros          2.137573
+Locomovendo     1.467779
+Ócio            1.302758
+Agua            0.281222
+Outro           0.019985
+Name: Comportamento, dtype: float64
+
+Animal 22:
+
+Pastejando     49.280400
+Ruminando      26.524509
+Ocio           16.913853
+Outros          3.346769
+Locomovendo     2.186394
+Ócio            1.324203
+Agua            0.423872
+Name: Comportamento, dtype: float64
+
+Animal 90:
+
+Pastejando     43.347228
+Ocio           30.841384
+Ruminando      18.957092
+Locomovendo     2.979808
+Outros          2.386799
+Outro           1.163872
+Agua            0.323817
+Name: Comportamento, dtype: float64
+
+Animal 105:
+
+Pastejando     51.440857
+Ocio           24.367436
+Ruminando      18.805162
+Locomovendo     1.993468
+Agua            1.733549
+Outros          1.083751
+Outro           0.575778
+Name: Comportamento, dtype: float64
+
+Animal 85:
+
+Pastejando     40.025756
+Ruminando      26.273767
+Ocio           16.326036
+Locomovendo     6.591925
+Agua            5.588971
+Outros          5.193546
+Name: Comportamento, dtype: float64
+
