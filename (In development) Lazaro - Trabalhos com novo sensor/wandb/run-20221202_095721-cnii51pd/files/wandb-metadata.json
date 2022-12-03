@@ -1,0 +1,84 @@
+{
+    "os": "Linux-5.4.0-135-generic-x86_64-with-glibc2.31",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-12-02T12:57:28.761263",
+    "startedAt": "2022-12-02T12:57:21.456142",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "Documents/UFLA/Inicia\u00e7\u00e3o Cient\u00edfica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/(In development) Treinamento e Validacao.ipynb",
+    "root": "/mnt/data/Documents/UFLA/Inicia\u00e7\u00e3o Cient\u00edfica/ZooWithAI",
+    "git": {
+        "remote": "https://github.com/egmaziero/ZooWithAI.git",
+        "commit": "0162db25c6fe5c8041aed218bc3270b11dbc630a"
+    },
+    "email": "caiomatheus98@outlook.com",
+    "host": "Caio",
+    "username": "caio",
+    "executable": "/home/caio/anaconda3/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2.2939999999999996,
+        "min": 2200.0,
+        "max": 3600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2.145,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.006,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.041,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.348,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.603,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.91,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.006,
+            "min": 2200.0,
+            "max": 3600.0
+        },
+        {
+            "current": 2.293,
+            "min": 2200.0,
+            "max": 3600.0
+        }
+    ],
+    "disk": {
+        "total": 58.75761032104492,
+        "used": 20.52362823486328
+    },
+    "gpu": "NVIDIA GeForce GTX 1650 SUPER",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1650 SUPER",
+            "memory_total": 4098621440
+        }
+    ],
+    "memory": {
+        "total": 15.627147674560547
+    }
+}

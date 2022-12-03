@@ -1,0 +1,1013 @@
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 27546 entries, 0 to 28485
+Data columns (total 11 columns):
+ #   Column         Non-Null Count  Dtype
+---  ------         --------------  -----
+ 0   Date           27546 non-null  object
+ 1   ax             27546 non-null  int64
+ 2   ay             27546 non-null  int64
+ 3   az             27546 non-null  int64
+ 4   gx             27546 non-null  int64
+ 5   gy             27546 non-null  int64
+ 6   gz             27546 non-null  int64
+ 7   axc            27546 non-null  float64
+ 8   ayc            27546 non-null  float64
+ 9   azc            27546 non-null  float64
+ 10  Comportamento  27546 non-null  object
+dtypes: float64(3), int64(6), object(2)
+memory usage: 2.5+ MB
+Scores: [78.4764208  77.38814994 79.44377267 76.27118644 77.60290557 78.20823245
+ 77.11864407 75.06053269 78.57142857 77.23970944]
+Mean: 77.53809826350968
+Standard deviation: 1.185915444921605
+              precision    recall  f1-score   support
+        Ocio       0.79      0.66      0.72      5969
+     Pastejo       0.77      0.85      0.81      8223
+   Ruminação       0.77      0.79      0.78      5091
+    accuracy                           0.77     19283
+   macro avg       0.78      0.77      0.77     19283
+weighted avg       0.78      0.77      0.77     19283
+77.47238500233367
+Scores: [78.4764208  77.38814994 79.44377267 76.39225182 77.60290557 78.20823245
+ 77.11864407 75.06053269 78.57142857 77.23970944]
+Mean: 77.55020480103997
+Standard deviation: 1.1734729335187297
+              precision    recall  f1-score   support
+        Ocio       0.79      0.66      0.72      5969
+     Pastejo       0.77      0.85      0.81      8223
+   Ruminação       0.77      0.79      0.78      5091
+    accuracy                           0.77     19283
+   macro avg       0.78      0.77      0.77     19283
+weighted avg       0.78      0.77      0.77     19283
+77.46719908727894
+Scores: [73.63966143 76.1789601  76.1789601  75.66585956 75.54479419 73.84987893
+ 75.42372881 73.84987893 75.18159806 74.81840194]
+Mean: 75.03317220561497
+Standard deviation: 0.9083302988767433
+              precision    recall  f1-score   support
+        Ocio       0.68      0.74      0.71      5969
+     Pastejo       0.79      0.78      0.78      8223
+   Ruminação       0.78      0.73      0.76      5091
+    accuracy                           0.75     19283
+   macro avg       0.75      0.75      0.75     19283
+weighted avg       0.75      0.75      0.75     19283
+75.26837110408131
+Scores: [46.07013301 46.55380895 48.4885127  49.39467312 49.39467312 48.66828087
+ 48.42615012 48.66828087 48.42615012 47.33656174]
+Mean: 48.14272246311678
+Standard deviation: 1.0694664957730045
+              precision    recall  f1-score   support
+        Ocio       0.53      0.50      0.51      5969
+     Pastejo       0.53      0.61      0.57      8223
+   Ruminação       0.31      0.26      0.28      5091
+    accuracy                           0.48     19283
+   macro avg       0.46      0.46      0.46     19283
+weighted avg       0.47      0.48      0.48     19283
+48.39495929056682
+Scores: [46.07013301 46.55380895 48.4885127  49.39467312 49.39467312 48.66828087
+ 48.42615012 48.66828087 48.42615012 47.33656174]
+Mean: 48.14272246311678
+Standard deviation: 1.0694664957730045
+              precision    recall  f1-score   support
+        Ocio       0.53      0.50      0.51      5969
+     Pastejo       0.53      0.61      0.57      8223
+   Ruminação       0.31      0.26      0.28      5091
+    accuracy                           0.48     19283
+   macro avg       0.46      0.46      0.46     19283
+weighted avg       0.47      0.48      0.48     19283
+48.39495929056682
+Scores: [73.15598549 75.93712213 77.26723096 74.81840194 74.57627119 73.60774818
+ 73.97094431 72.88135593 76.51331719 73.36561743]
+Mean: 74.609399474749
+Standard deviation: 1.4336341435715076
+              precision    recall  f1-score   support
+        Ocio       0.71      0.62      0.67      5969
+     Pastejo       0.75      0.82      0.78      8223
+   Ruminação       0.74      0.75      0.74      5091
+    accuracy                           0.74     19283
+   macro avg       0.73      0.73      0.73     19283
+weighted avg       0.74      0.74      0.74     19283
+73.8474303790904
+Scores: [62.69005848 62.22222222 63.97660819 62.45614035 60.23391813 65.22248244
+ 64.16861827 62.17798595 63.58313817 63.58313817]
+Mean: 63.03143103660791
+Standard deviation: 1.3134984923812125
+              precision    recall  f1-score   support
+        Agua       0.39      0.11      0.18       230
+       Cocho       0.46      0.43      0.44      3609
+ Locomovendo       0.09      0.01      0.01       180
+        Ocio       0.73      0.69      0.71      5964
+       Outro       0.30      0.05      0.09       221
+     Pastejo       0.53      0.62      0.57      4612
+   Ruminação       0.75      0.80      0.77      5125
+    accuracy                           0.63     19941
+   macro avg       0.46      0.39      0.40     19941
+weighted avg       0.63      0.63      0.63     19941
+63.3970212125771
+Scores: [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+Mean: 0.0
+Standard deviation: 0.0
+Scores: [0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+Mean: 0.0
+Standard deviation: 0.0
+Scores: [33.0994152  36.02339181 36.02339181 35.67251462 37.66081871 36.29976581
+ 37.23653396 35.48009368 32.78688525 36.06557377]
+Mean: 35.63483846227591
+Standard deviation: 1.4887648300276752
+              precision    recall  f1-score   support
+        Agua       0.03      0.01      0.02       230
+       Cocho       0.21      0.19      0.20      3609
+ Locomovendo       0.01      0.01      0.01       180
+        Ocio       0.49      0.51      0.50      5964
+       Outro       0.00      0.00      0.00       221
+     Pastejo       0.33      0.34      0.33      4612
+   Ruminação       0.31      0.33      0.32      5125
+    accuracy                           0.35     19941
+   macro avg       0.20      0.20      0.20     19941
+weighted avg       0.34      0.35      0.35     19941
+35.0985406950504
+Scores: [62.69005848 62.22222222 63.97660819 62.45614035 60.23391813 65.22248244
+ 64.16861827 62.17798595 63.58313817 63.58313817]
+Mean: 63.03143103660791
+Standard deviation: 1.3134984923812125
+              precision    recall  f1-score   support
+        Agua       0.39      0.11      0.18       230
+       Cocho       0.46      0.43      0.44      3609
+ Locomovendo       0.09      0.01      0.01       180
+        Ocio       0.73      0.69      0.71      5964
+       Outro       0.30      0.05      0.09       221
+     Pastejo       0.53      0.62      0.57      4612
+   Ruminação       0.75      0.80      0.77      5125
+    accuracy                           0.63     19941
+   macro avg       0.46      0.39      0.40     19941
+weighted avg       0.63      0.63      0.63     19941
+63.3970212125771
+Behavior  Predictions
+Pastejo   Pastejo        62.250650
+          Cocho          21.964441
+          Ocio            8.954900
+          Ruminação       6.287944
+          Agua            0.238508
+          Outro           0.195143
+          Locomovendo     0.108413
+dtype: float64
+Ocio
+Ruminação
+Pastejo
+Agua
+Cocho
+Locomovendo
+Outro
+Behavior  Predictions
+Pastejo   Pastejo        62.250650
+          Cocho          21.964441
+          Ocio            8.954900
+          Ruminação       6.287944
+          Agua            0.238508
+          Outro           0.195143
+          Locomovendo     0.108413
+dtype: float64
+Behavior  Predictions
+Pastejo   Pastejo        62.250650
+          Cocho          21.964441
+          Ocio            8.954900
+          Ruminação       6.287944
+          Agua            0.238508
+          Outro           0.195143
+          Locomovendo     0.108413
+dtype: float64
+Behavior  Predictions
+Pastejo   Pastejo        62.250650
+          Cocho          21.964441
+          Ocio            8.954900
+          Ruminação       6.287944
+          Agua            0.238508
+          Outro           0.195143
+          Locomovendo     0.108413
+dtype: float64
+Behavior  Predictions
+Pastejo   Pastejo        62.250650
+          Cocho          21.964441
+          Ocio            8.954900
+          Ruminação       6.287944
+          Agua            0.238508
+          Outro           0.195143
+          Locomovendo     0.108413
+dtype: float64
+Behavior  Predictions
+Pastejo   Pastejo        62.250650
+          Cocho          21.964441
+          Ocio            8.954900
+          Ruminação       6.287944
+          Agua            0.238508
+          Outro           0.195143
+          Locomovendo     0.108413
+dtype: float64
+Behavior  Predictions
+Pastejo   Pastejo        62.250650
+          Cocho          21.964441
+          Ocio            8.954900
+          Ruminação       6.287944
+          Agua            0.238508
+          Outro           0.195143
+          Locomovendo     0.108413
+dtype: float64
+Behavior  Predictions
+Pastejo   Pastejo        62.250650
+          Cocho          21.964441
+          Ocio            8.954900
+          Ruminação       6.287944
+          Agua            0.238508
+          Outro           0.195143
+          Locomovendo     0.108413
+dtype: float64
+Behavior  Predictions
+Ocio      Ocio           68.896714
+          Pastejo        12.407780
+          Ruminação      10.647217
+          Cocho           7.461435
+          Agua            0.352113
+          Outro           0.201207
+          Locomovendo     0.033535
+dtype: float64
+Behavior   Predictions
+Ruminação  Ruminação      79.746341
+           Ocio            8.819512
+           Pastejo         6.712195
+           Cocho           4.682927
+           Agua            0.019512
+           Locomovendo     0.019512
+dtype: float64
+Behavior  Predictions
+Pastejo   Pastejo        62.250650
+          Cocho          21.964441
+          Ocio            8.954900
+          Ruminação       6.287944
+          Agua            0.238508
+          Outro           0.195143
+          Locomovendo     0.108413
+dtype: float64
+Behavior  Predictions
+Agua      Ocio           29.130435
+          Cocho          24.782609
+          Pastejo        24.347826
+          Agua           11.304348
+          Ruminação      10.000000
+          Locomovendo     0.434783
+dtype: float64
+Behavior  Predictions
+Cocho     Cocho          42.587975
+          Pastejo        34.940427
+          Ocio           12.579662
+          Ruminação       9.670269
+          Agua            0.193960
+          Locomovendo     0.027709
+dtype: float64
+Behavior     Predictions
+Locomovendo  Pastejo        41.111111
+             Cocho          20.000000
+             Ocio           20.000000
+             Ruminação      15.555556
+             Outro           2.777778
+             Locomovendo     0.555556
+dtype: float64
+Behavior  Predictions
+Outro     Pastejo        38.009050
+          Ocio           37.104072
+          Ruminação      13.122172
+          Cocho           6.787330
+          Outro           4.977376
+dtype: float64
+Behavior  Predictions
+Ocio      Ocio           68.896714
+          Pastejo        12.407780
+          Ruminação      10.647217
+          Cocho           7.461435
+          Agua            0.352113
+          Outro           0.201207
+          Locomovendo     0.033535
+dtype: float64
+Behavior   Predictions
+Ruminação  Ruminação      79.746341
+           Ocio            8.819512
+           Pastejo         6.712195
+           Cocho           4.682927
+           Agua            0.019512
+           Locomovendo     0.019512
+dtype: float64
+Behavior  Predictions
+Pastejo   Pastejo        62.250650
+          Cocho          21.964441
+          Ocio            8.954900
+          Ruminação       6.287944
+          Agua            0.238508
+          Outro           0.195143
+          Locomovendo     0.108413
+dtype: float64
+Behavior  Predictions
+Agua      Ocio           29.130435
+          Cocho          24.782609
+          Pastejo        24.347826
+          Agua           11.304348
+          Ruminação      10.000000
+          Locomovendo     0.434783
+dtype: float64
+Behavior  Predictions
+Cocho     Cocho          42.587975
+          Pastejo        34.940427
+          Ocio           12.579662
+          Ruminação       9.670269
+          Agua            0.193960
+          Locomovendo     0.027709
+dtype: float64
+Behavior     Predictions
+Locomovendo  Pastejo        41.111111
+             Cocho          20.000000
+             Ocio           20.000000
+             Ruminação      15.555556
+             Outro           2.777778
+             Locomovendo     0.555556
+dtype: float64
+Behavior  Predictions
+Outro     Pastejo        38.009050
+          Ocio           37.104072
+          Ruminação      13.122172
+          Cocho           6.787330
+          Outro           4.977376
+dtype: float64
+4436     Ruminação
+18947         Ocio
+18631         Ocio
+6046          Ocio
+17926      Pastejo
+           ...
+13652      Pastejo
+18545      Pastejo
+16350         Ocio
+8638          Ocio
+22170         Ocio
+Name: Predictions, Length: 5964, dtype: object
+27552    Ruminação
+20059    Ruminação
+25733    Ruminação
+26875    Ruminação
+9659     Ruminação
+           ...
+19293    Ruminação
+28271      Pastejo
+27183    Ruminação
+26234    Ruminação
+182      Ruminação
+Name: Predictions, Length: 5125, dtype: object
+14844      Pastejo
+14089      Pastejo
+7843       Pastejo
+16132      Pastejo
+16278      Pastejo
+           ...
+11842        Cocho
+24848    Ruminação
+16251         Ocio
+13746        Cocho
+2178       Pastejo
+Name: Predictions, Length: 4612, dtype: object
+11772        Cocho
+11747        Cocho
+20597         Ocio
+20613    Ruminação
+11746         Agua
+           ...
+11788      Pastejo
+11724        Cocho
+20674    Ruminação
+20546         Agua
+11716        Cocho
+Name: Predictions, Length: 230, dtype: object
+23277    Pastejo
+23925      Cocho
+23850      Cocho
+5466     Pastejo
+23555    Pastejo
+          ...
+5432     Pastejo
+6519       Cocho
+24147      Cocho
+23223      Cocho
+3716       Cocho
+Name: Predictions, Length: 3609, dtype: object
+4336     Ruminação
+8220         Cocho
+11809        Cocho
+11715        Cocho
+7060       Pastejo
+           ...
+4315          Ocio
+15323      Pastejo
+22123         Ocio
+15381      Pastejo
+15354      Pastejo
+Name: Predictions, Length: 180, dtype: object
+15180      Pastejo
+15111         Ocio
+7720          Ocio
+15100         Ocio
+15229         Ocio
+           ...
+7666     Ruminação
+15164        Outro
+15103         Ocio
+15214      Pastejo
+15277         Ocio
+Name: Predictions, Length: 221, dtype: object
+4436     Ruminação
+18947         Ocio
+18631         Ocio
+6046          Ocio
+17926      Pastejo
+           ...
+13652      Pastejo
+18545      Pastejo
+16350         Ocio
+8638          Ocio
+22170         Ocio
+Name: Predictions, Length: 5964, dtype: object
+27552    Ruminação
+20059    Ruminação
+25733    Ruminação
+26875    Ruminação
+9659     Ruminação
+           ...
+19293    Ruminação
+28271      Pastejo
+27183    Ruminação
+26234    Ruminação
+182      Ruminação
+Name: Predictions, Length: 5125, dtype: object
+14844      Pastejo
+14089      Pastejo
+7843       Pastejo
+16132      Pastejo
+16278      Pastejo
+           ...
+11842        Cocho
+24848    Ruminação
+16251         Ocio
+13746        Cocho
+2178       Pastejo
+Name: Predictions, Length: 4612, dtype: object
+11772        Cocho
+11747        Cocho
+20597         Ocio
+20613    Ruminação
+11746         Agua
+           ...
+11788      Pastejo
+11724        Cocho
+20674    Ruminação
+20546         Agua
+11716        Cocho
+Name: Predictions, Length: 230, dtype: object
+23277    Pastejo
+23925      Cocho
+23850      Cocho
+5466     Pastejo
+23555    Pastejo
+          ...
+5432     Pastejo
+6519       Cocho
+24147      Cocho
+23223      Cocho
+3716       Cocho
+Name: Predictions, Length: 3609, dtype: object
+4336     Ruminação
+8220         Cocho
+11809        Cocho
+11715        Cocho
+7060       Pastejo
+           ...
+4315          Ocio
+15323      Pastejo
+22123         Ocio
+15381      Pastejo
+15354      Pastejo
+Name: Predictions, Length: 180, dtype: object
+15180      Pastejo
+15111         Ocio
+7720          Ocio
+15100         Ocio
+15229         Ocio
+           ...
+7666     Ruminação
+15164        Outro
+15103         Ocio
+15214      Pastejo
+15277         Ocio
+Name: Predictions, Length: 221, dtype: object
+Behavior  Predictions
+Ocio      Ocio           68.896714
+          Pastejo        12.407780
+          Ruminação      10.647217
+          Cocho           7.461435
+          Agua            0.352113
+          Outro           0.201207
+          Locomovendo     0.033535
+dtype: float64
+Behavior   Predictions
+Ruminação  Ruminação      79.746341
+           Ocio            8.819512
+           Pastejo         6.712195
+           Cocho           4.682927
+           Agua            0.019512
+           Locomovendo     0.019512
+dtype: float64
+Behavior  Predictions
+Pastejo   Pastejo        62.250650
+          Cocho          21.964441
+          Ocio            8.954900
+          Ruminação       6.287944
+          Agua            0.238508
+          Outro           0.195143
+          Locomovendo     0.108413
+dtype: float64
+Behavior  Predictions
+Agua      Ocio           29.130435
+          Cocho          24.782609
+          Pastejo        24.347826
+          Agua           11.304348
+          Ruminação      10.000000
+          Locomovendo     0.434783
+dtype: float64
+Behavior  Predictions
+Cocho     Cocho          42.587975
+          Pastejo        34.940427
+          Ocio           12.579662
+          Ruminação       9.670269
+          Agua            0.193960
+          Locomovendo     0.027709
+dtype: float64
+Behavior     Predictions
+Locomovendo  Pastejo        41.111111
+             Cocho          20.000000
+             Ocio           20.000000
+             Ruminação      15.555556
+             Outro           2.777778
+             Locomovendo     0.555556
+dtype: float64
+Behavior  Predictions
+Outro     Pastejo        38.009050
+          Ocio           37.104072
+          Ruminação      13.122172
+          Cocho           6.787330
+          Outro           4.977376
+dtype: float64
+4436     Ruminação
+18947         Ocio
+18631         Ocio
+6046          Ocio
+17926      Pastejo
+           ...
+13652      Pastejo
+18545      Pastejo
+16350         Ocio
+8638          Ocio
+22170         Ocio
+Name: Predictions, Length: 5964, dtype: object
+27552    Ruminação
+20059    Ruminação
+25733    Ruminação
+26875    Ruminação
+9659     Ruminação
+           ...
+19293    Ruminação
+28271      Pastejo
+27183    Ruminação
+26234    Ruminação
+182      Ruminação
+Name: Predictions, Length: 5125, dtype: object
+14844      Pastejo
+14089      Pastejo
+7843       Pastejo
+16132      Pastejo
+16278      Pastejo
+           ...
+11842        Cocho
+24848    Ruminação
+16251         Ocio
+13746        Cocho
+2178       Pastejo
+Name: Predictions, Length: 4612, dtype: object
+11772        Cocho
+11747        Cocho
+20597         Ocio
+20613    Ruminação
+11746         Agua
+           ...
+11788      Pastejo
+11724        Cocho
+20674    Ruminação
+20546         Agua
+11716        Cocho
+Name: Predictions, Length: 230, dtype: object
+23277    Pastejo
+23925      Cocho
+23850      Cocho
+5466     Pastejo
+23555    Pastejo
+          ...
+5432     Pastejo
+6519       Cocho
+24147      Cocho
+23223      Cocho
+3716       Cocho
+Name: Predictions, Length: 3609, dtype: object
+4336     Ruminação
+8220         Cocho
+11809        Cocho
+11715        Cocho
+7060       Pastejo
+           ...
+4315          Ocio
+15323      Pastejo
+22123         Ocio
+15381      Pastejo
+15354      Pastejo
+Name: Predictions, Length: 180, dtype: object
+15180      Pastejo
+15111         Ocio
+7720          Ocio
+15100         Ocio
+15229         Ocio
+           ...
+7666     Ruminação
+15164        Outro
+15103         Ocio
+15214      Pastejo
+15277         Ocio
+Name: Predictions, Length: 221, dtype: object
+=====
+=====
+=====
+=====
+=====
+=====
+=====
+==========Ocio
+==========Ruminação
+==========Pastejo
+==========Agua
+==========Cocho
+==========Locomovendo
+==========Outro
+========== Ocio
+========== Ruminação
+========== Pastejo
+========== Agua
+========== Cocho
+========== Locomovendo
+========== Outro
+========== Ocio ==========
+========== Ruminação ==========
+========== Pastejo ==========
+========== Agua ==========
+========== Cocho ==========
+========== Locomovendo ==========
+========== Outro ==========
+========== Ocio ==========
+========== Ruminação ==========
+========== Pastejo ==========
+========== Agua ==========
+========== Cocho ==========
+========== Locomovendo ==========
+========== Outro ==========
+Scores: [78.4764208  77.38814994 79.44377267 76.39225182 77.60290557 78.20823245
+ 77.11864407 75.06053269 78.57142857 77.23970944]
+Mean: 77.55020480103997
+Standard deviation: 1.1734729335187297
+              precision    recall  f1-score   support
+        Ocio       0.79      0.66      0.72      5969
+     Pastejo       0.77      0.85      0.81      8223
+   Ruminação       0.77      0.79      0.78      5091
+    accuracy                           0.77     19283
+   macro avg       0.78      0.77      0.77     19283
+weighted avg       0.78      0.77      0.77     19283
+77.46719908727894
+Scores: [73.63966143 76.1789601  76.1789601  75.66585956 75.54479419 73.84987893
+ 75.42372881 73.84987893 75.18159806 74.81840194]
+Mean: 75.03317220561497
+Standard deviation: 0.9083302988767433
+              precision    recall  f1-score   support
+        Ocio       0.68      0.74      0.71      5969
+     Pastejo       0.79      0.78      0.78      8223
+   Ruminação       0.78      0.73      0.76      5091
+    accuracy                           0.75     19283
+   macro avg       0.75      0.75      0.75     19283
+weighted avg       0.75      0.75      0.75     19283
+75.26837110408131
+Scores: [46.07013301 46.55380895 48.4885127  49.39467312 49.39467312 48.66828087
+ 48.42615012 48.66828087 48.42615012 47.33656174]
+Mean: 48.14272246311678
+Standard deviation: 1.0694664957730045
+              precision    recall  f1-score   support
+        Ocio       0.53      0.50      0.51      5969
+     Pastejo       0.53      0.61      0.57      8223
+   Ruminação       0.31      0.26      0.28      5091
+    accuracy                           0.48     19283
+   macro avg       0.46      0.46      0.46     19283
+weighted avg       0.47      0.48      0.48     19283
+48.39495929056682
+Scores: [73.15598549 75.93712213 77.26723096 74.81840194 74.57627119 73.60774818
+ 73.97094431 72.88135593 76.51331719 73.36561743]
+Mean: 74.609399474749
+Standard deviation: 1.4336341435715076
+              precision    recall  f1-score   support
+        Ocio       0.71      0.62      0.67      5969
+     Pastejo       0.75      0.82      0.78      8223
+   Ruminação       0.74      0.75      0.74      5091
+    accuracy                           0.74     19283
+   macro avg       0.73      0.73      0.73     19283
+weighted avg       0.74      0.74      0.74     19283
+73.8474303790904
+Scores: [62.69005848 62.22222222 63.97660819 62.45614035 60.23391813 65.22248244
+ 64.16861827 62.17798595 63.58313817 63.58313817]
+Mean: 63.03143103660791
+Standard deviation: 1.3134984923812125
+              precision    recall  f1-score   support
+        Agua       0.39      0.11      0.18       230
+       Cocho       0.46      0.43      0.44      3609
+ Locomovendo       0.09      0.01      0.01       180
+        Ocio       0.73      0.69      0.71      5964
+       Outro       0.30      0.05      0.09       221
+     Pastejo       0.53      0.62      0.57      4612
+   Ruminação       0.75      0.80      0.77      5125
+    accuracy                           0.63     19941
+   macro avg       0.46      0.39      0.40     19941
+weighted avg       0.63      0.63      0.63     19941
+63.3970212125771
+Behavior  Predictions
+Ocio      Ocio           68.896714
+          Pastejo        12.407780
+          Ruminação      10.647217
+          Cocho           7.461435
+          Agua            0.352113
+          Outro           0.201207
+          Locomovendo     0.033535
+dtype: float64
+Behavior   Predictions
+Ruminação  Ruminação      79.746341
+           Ocio            8.819512
+           Pastejo         6.712195
+           Cocho           4.682927
+           Agua            0.019512
+           Locomovendo     0.019512
+dtype: float64
+Behavior  Predictions
+Pastejo   Pastejo        62.250650
+          Cocho          21.964441
+          Ocio            8.954900
+          Ruminação       6.287944
+          Agua            0.238508
+          Outro           0.195143
+          Locomovendo     0.108413
+dtype: float64
+Behavior  Predictions
+Agua      Ocio           29.130435
+          Cocho          24.782609
+          Pastejo        24.347826
+          Agua           11.304348
+          Ruminação      10.000000
+          Locomovendo     0.434783
+dtype: float64
+Behavior  Predictions
+Cocho     Cocho          42.587975
+          Pastejo        34.940427
+          Ocio           12.579662
+          Ruminação       9.670269
+          Agua            0.193960
+          Locomovendo     0.027709
+dtype: float64
+Behavior     Predictions
+Locomovendo  Pastejo        41.111111
+             Cocho          20.000000
+             Ocio           20.000000
+             Ruminação      15.555556
+             Outro           2.777778
+             Locomovendo     0.555556
+dtype: float64
+Behavior  Predictions
+Outro     Pastejo        38.009050
+          Ocio           37.104072
+          Ruminação      13.122172
+          Cocho           6.787330
+          Outro           4.977376
+dtype: float64
+========== Ocio ==========
+========== Ruminação ==========
+========== Pastejo ==========
+========== Agua ==========
+========== Cocho ==========
+========== Locomovendo ==========
+========== Outro ==========
+========== Ocio: distribuição de como foram classificados==========
+========== Ruminação: distribuição de como foram classificados==========
+========== Pastejo: distribuição de como foram classificados==========
+========== Agua: distribuição de como foram classificados==========
+========== Cocho: distribuição de como foram classificados==========
+========== Locomovendo: distribuição de como foram classificados==========
+========== Outro: distribuição de como foram classificados==========
+========== Ocio: distribuição de como foram classificados ==========
+========== Ruminação: distribuição de como foram classificados ==========
+========== Pastejo: distribuição de como foram classificados ==========
+========== Agua: distribuição de como foram classificados ==========
+========== Cocho: distribuição de como foram classificados ==========
+========== Locomovendo: distribuição de como foram classificados ==========
+========== Outro: distribuição de como foram classificados ==========
+===== Ocio: distribuição de como foram classificados =====
+===== Ruminação: distribuição de como foram classificados =====
+===== Pastejo: distribuição de como foram classificados =====
+===== Agua: distribuição de como foram classificados =====
+===== Cocho: distribuição de como foram classificados =====
+===== Locomovendo: distribuição de como foram classificados =====
+===== Outro: distribuição de como foram classificados =====
+====== Ocio: distribuição de como foram classificados ======
+====== Ruminação: distribuição de como foram classificados ======
+====== Pastejo: distribuição de como foram classificados ======
+====== Agua: distribuição de como foram classificados ======
+====== Cocho: distribuição de como foram classificados ======
+====== Locomovendo: distribuição de como foram classificados ======
+====== Outro: distribuição de como foram classificados ======
+======= Ocio: distribuição de como foram classificados =======
+======= Ruminação: distribuição de como foram classificados =======
+======= Pastejo: distribuição de como foram classificados =======
+======= Agua: distribuição de como foram classificados =======
+======= Cocho: distribuição de como foram classificados =======
+======= Locomovendo: distribuição de como foram classificados =======
+======= Outro: distribuição de como foram classificados =======
+======= Ocio: Distribution of how it was classified =======
+======= Ruminação: Distribution of how it was classified =======
+======= Pastejo: Distribution of how it was classified =======
+======= Agua: Distribution of how it was classified =======
+======= Cocho: Distribution of how it was classified =======
+======= Locomovendo: Distribution of how it was classified =======
+======= Outro: Distribution of how it was classified =======
+===== Ocio: Distribution of how it was classified =====
+===== Ruminação: Distribution of how it was classified =====
+===== Pastejo: Distribution of how it was classified =====
+===== Agua: Distribution of how it was classified =====
+===== Cocho: Distribution of how it was classified =====
+===== Locomovendo: Distribution of how it was classified =====
+===== Outro: Distribution of how it was classified =====
+wandb: Network error (ConnectionError), entering retry loop.
+Scores: [62.69005848 62.22222222 63.97660819 62.45614035 60.23391813 65.22248244
+ 64.16861827 62.17798595 63.58313817 63.58313817]
+Mean: 63.03143103660791
+Standard deviation: 1.3134984923812125
+Scores: [78.4764208  77.38814994 79.44377267 76.39225182 77.60290557 78.20823245
+ 77.11864407 75.06053269 78.57142857 77.23970944]
+Mean: 77.55020480103997
+Standard deviation: 1.1734729335187297
+              precision    recall  f1-score   support
+        Ocio       0.79      0.66      0.72      5969
+     Pastejo       0.77      0.85      0.81      8223
+   Ruminação       0.77      0.79      0.78      5091
+    accuracy                           0.77     19283
+   macro avg       0.78      0.77      0.77     19283
+weighted avg       0.78      0.77      0.77     19283
+Accuracy:  77.46719908727894
+Cohen's K:  0.6522357856045052
+              precision    recall  f1-score   support
+        Ocio       0.79      0.66      0.72      5969
+     Pastejo       0.77      0.85      0.81      8223
+   Ruminação       0.77      0.79      0.78      5091
+    accuracy                           0.77     19283
+   macro avg       0.78      0.77      0.77     19283
+weighted avg       0.78      0.77      0.77     19283
+Accuracy:  77.46719908727894
+Cohen's K:  0.6522357856045052
+              precision    recall  f1-score   support
+        Ocio       0.79      0.66      0.72      5969
+     Pastejo       0.77      0.85      0.81      8223
+   Ruminação       0.77      0.79      0.78      5091
+    accuracy                           0.77     19283
+   macro avg       0.78      0.77      0.77     19283
+weighted avg       0.78      0.77      0.77     19283
+Accuracy:  77.46719908727894
+Cohen's K:  0.6522357856045052
+Scores: [73.63966143 76.1789601  76.1789601  75.66585956 75.54479419 73.84987893
+ 75.42372881 73.84987893 75.18159806 74.81840194]
+Mean: 75.03317220561497
+Standard deviation: 0.9083302988767433
+              precision    recall  f1-score   support
+        Ocio       0.68      0.74      0.71      5969
+     Pastejo       0.79      0.78      0.78      8223
+   Ruminação       0.78      0.73      0.76      5091
+    accuracy                           0.75     19283
+   macro avg       0.75      0.75      0.75     19283
+weighted avg       0.75      0.75      0.75     19283
+Accuracy:  75.26837110408131
+Cohen's K:  0.6208156419293003
+Scores: [46.07013301 46.55380895 48.4885127  49.39467312 49.39467312 48.66828087
+ 48.42615012 48.66828087 48.42615012 47.33656174]
+Mean: 48.14272246311678
+Standard deviation: 1.0694664957730045
+              precision    recall  f1-score   support
+        Ocio       0.53      0.50      0.51      5969
+     Pastejo       0.53      0.61      0.57      8223
+   Ruminação       0.31      0.26      0.28      5091
+    accuracy                           0.48     19283
+   macro avg       0.46      0.46      0.46     19283
+weighted avg       0.47      0.48      0.48     19283
+Accuracy:  48.39495929056682
+Cohen's K:  0.1978214562371765
+Scores: [73.15598549 75.93712213 77.26723096 74.81840194 74.57627119 73.60774818
+ 73.97094431 72.88135593 76.51331719 73.36561743]
+Mean: 74.609399474749
+Standard deviation: 1.4336341435715076
+              precision    recall  f1-score   support
+        Ocio       0.71      0.62      0.67      5969
+     Pastejo       0.75      0.82      0.78      8223
+   Ruminação       0.74      0.75      0.74      5091
+    accuracy                           0.74     19283
+   macro avg       0.73      0.73      0.73     19283
+weighted avg       0.74      0.74      0.74     19283
+Accuracy:  73.8474303790904
+Cohen's K:  0.5968600266235093
+Scores: [62.69005848 62.22222222 63.97660819 62.45614035 60.23391813 65.22248244
+ 64.16861827 62.17798595 63.58313817 63.58313817]
+Mean: 63.03143103660791
+Standard deviation: 1.3134984923812125
+              precision    recall  f1-score   support
+        Agua       0.39      0.11      0.18       230
+       Cocho       0.46      0.43      0.44      3609
+ Locomovendo       0.09      0.01      0.01       180
+        Ocio       0.73      0.69      0.71      5964
+       Outro       0.30      0.05      0.09       221
+     Pastejo       0.53      0.62      0.57      4612
+   Ruminação       0.75      0.80      0.77      5125
+    accuracy                           0.63     19941
+   macro avg       0.46      0.39      0.40     19941
+weighted avg       0.63      0.63      0.63     19941
+Accuracy:  63.3970212125771
+Cohen's K:  0.5134553699386768
+Behavior  Predictions
+Ocio      Ocio           68.896714
+          Pastejo        12.407780
+          Ruminação      10.647217
+          Cocho           7.461435
+          Agua            0.352113
+          Outro           0.201207
+          Locomovendo     0.033535
+dtype: float64
+Behavior   Predictions
+Ruminação  Ruminação      79.746341
+           Ocio            8.819512
+           Pastejo         6.712195
+           Cocho           4.682927
+           Agua            0.019512
+           Locomovendo     0.019512
+dtype: float64
+Behavior  Predictions
+Pastejo   Pastejo        62.250650
+          Cocho          21.964441
+          Ocio            8.954900
+          Ruminação       6.287944
+          Agua            0.238508
+          Outro           0.195143
+          Locomovendo     0.108413
+dtype: float64
+Behavior  Predictions
+Agua      Ocio           29.130435
+          Cocho          24.782609
+          Pastejo        24.347826
+          Agua           11.304348
+          Ruminação      10.000000
+          Locomovendo     0.434783
+dtype: float64
+Behavior  Predictions
+Cocho     Cocho          42.587975
+          Pastejo        34.940427
+          Ocio           12.579662
+          Ruminação       9.670269
+          Agua            0.193960
+          Locomovendo     0.027709
+dtype: float64
+Behavior     Predictions
+Locomovendo  Pastejo        41.111111
+             Cocho          20.000000
+             Ocio           20.000000
+             Ruminação      15.555556
+             Outro           2.777778
+             Locomovendo     0.555556
+dtype: float64
+Behavior  Predictions
+Outro     Pastejo        38.009050
+          Ocio           37.104072
+          Ruminação      13.122172
+          Cocho           6.787330
+          Outro           4.977376
+dtype: float64
+===== Ocio: Distribution of how it was classified =====
+===== Ruminação: Distribution of how it was classified =====
+===== Pastejo: Distribution of how it was classified =====
+===== Agua: Distribution of how it was classified =====
+===== Cocho: Distribution of how it was classified =====
+===== Locomovendo: Distribution of how it was classified =====
