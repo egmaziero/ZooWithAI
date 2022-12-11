@@ -1,0 +1,333 @@
+2022-12-10 22:14:59,459 INFO    StreamThr :15853 [internal.py:wandb_internal():88] W&B internal server running at pid: 15853, started at: 2022-12-10 22:14:59.459286
+2022-12-10 22:14:59,460 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: status
+2022-12-10 22:14:59,461 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: status
+2022-12-10 22:14:59,462 DEBUG   SenderThread:15853 [sender.py:send():303] send: header
+2022-12-10 22:14:59,462 INFO    WriterThread:15853 [datastore.py:open_for_write():75] open: /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/run-3hbh9yan.wandb
+2022-12-10 22:14:59,463 DEBUG   SenderThread:15853 [sender.py:send():303] send: run
+2022-12-10 22:14:59,957 INFO    SenderThread:15853 [dir_watcher.py:__init__():216] watching files in: /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/files
+2022-12-10 22:14:59,957 INFO    SenderThread:15853 [sender.py:_start_run_threads():928] run started: 3hbh9yan with start time 1670721298.466186
+2022-12-10 22:14:59,958 DEBUG   SenderThread:15853 [sender.py:send():303] send: summary
+2022-12-10 22:14:59,958 INFO    SenderThread:15853 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-10 22:14:59,958 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: check_version
+2022-12-10 22:14:59,959 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: check_version
+2022-12-10 22:15:00,173 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: run_start
+2022-12-10 22:15:00,174 DEBUG   HandlerThread:15853 [system_info.py:__init__():31] System info init
+2022-12-10 22:15:00,174 DEBUG   HandlerThread:15853 [system_info.py:__init__():46] System info init done
+2022-12-10 22:15:00,174 INFO    HandlerThread:15853 [system_monitor.py:start():150] Starting system monitor
+2022-12-10 22:15:00,174 INFO    SystemMonitor:15853 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2022-12-10 22:15:00,174 INFO    HandlerThread:15853 [system_monitor.py:probe():168] Collecting system info
+2022-12-10 22:15:00,175 INFO    SystemMonitor:15853 [interfaces.py:start():168] Started cpu
+2022-12-10 22:15:00,175 INFO    SystemMonitor:15853 [interfaces.py:start():168] Started disk
+2022-12-10 22:15:00,175 INFO    SystemMonitor:15853 [interfaces.py:start():168] Started gpu
+2022-12-10 22:15:00,176 INFO    SystemMonitor:15853 [interfaces.py:start():168] Started memory
+2022-12-10 22:15:00,176 INFO    SystemMonitor:15853 [interfaces.py:start():168] Started network
+2022-12-10 22:15:00,198 DEBUG   HandlerThread:15853 [system_info.py:probe():195] Probing system
+2022-12-10 22:15:00,199 DEBUG   HandlerThread:15853 [system_info.py:_probe_git():180] Probing git
+2022-12-10 22:15:00,212 DEBUG   HandlerThread:15853 [system_info.py:_probe_git():188] Probing git done
+2022-12-10 22:15:00,212 DEBUG   HandlerThread:15853 [system_info.py:probe():241] Probing system done
+2022-12-10 22:15:00,213 DEBUG   HandlerThread:15853 [system_monitor.py:probe():177] {'os': 'Linux-5.4.0-135-generic-x86_64-with-glibc2.31', 'python': '3.9.12', 'heartbeatAt': '2022-12-11T01:15:00.198881', 'startedAt': '2022-12-11T01:14:50.941236', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/(In development) Treinamento e Validacao.ipynb', 'root': '/mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI', 'git': {'remote': 'https://github.com/egmaziero/ZooWithAI.git', 'commit': '9b8418676276ed56b30939af958fd29d718e2378'}, 'email': 'caiomatheus98@outlook.com', 'host': 'Caio', 'username': 'caio', 'executable': '/home/caio/anaconda3/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2.288375, 'min': 2200.0, 'max': 3600.0}, 'cpu_freq_per_core': [{'current': 2.745, 'min': 2200.0, 'max': 3600.0}, {'current': 1.921, 'min': 2200.0, 'max': 3600.0}, {'current': 1.903, 'min': 2200.0, 'max': 3600.0}, {'current': 2.789, 'min': 2200.0, 'max': 3600.0}, {'current': 2.26, 'min': 2200.0, 'max': 3600.0}, {'current': 2.106, 'min': 2200.0, 'max': 3600.0}, {'current': 1.888, 'min': 2200.0, 'max': 3600.0}, {'current': 2.695, 'min': 2200.0, 'max': 3600.0}], 'disk': {'total': 58.75761032104492, 'used': 20.496337890625}, 'gpu': 'NVIDIA GeForce GTX 1650 SUPER', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1650 SUPER', 'memory_total': 4098621440}], 'memory': {'total': 15.627143859863281}}
+2022-12-10 22:15:00,213 INFO    HandlerThread:15853 [system_monitor.py:probe():178] Finished collecting system info
+2022-12-10 22:15:00,213 INFO    HandlerThread:15853 [system_monitor.py:probe():181] Publishing system info
+2022-12-10 22:15:00,213 DEBUG   HandlerThread:15853 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2022-12-10 22:15:00,213 DEBUG   HandlerThread:15853 [system_info.py:_save_pip():67] Saving pip packages done
+2022-12-10 22:15:00,213 DEBUG   HandlerThread:15853 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2022-12-10 22:15:00,960 INFO    Thread-31 :15853 [dir_watcher.py:_on_file_created():275] file/dir created: /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/files/wandb-summary.json
+2022-12-10 22:15:00,960 INFO    Thread-31 :15853 [dir_watcher.py:_on_file_created():275] file/dir created: /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/files/requirements.txt
+2022-12-10 22:15:00,960 INFO    Thread-31 :15853 [dir_watcher.py:_on_file_created():275] file/dir created: /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/files/conda-environment.yaml
+2022-12-10 22:15:02,836 DEBUG   HandlerThread:15853 [system_info.py:_save_conda():86] Saving conda packages done
+2022-12-10 22:15:02,837 INFO    HandlerThread:15853 [system_monitor.py:probe():183] Finished publishing system info
+2022-12-10 22:15:02,837 DEBUG   SenderThread:15853 [sender.py:send():303] send: files
+2022-12-10 22:15:02,838 INFO    SenderThread:15853 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-12-10 22:15:02,848 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:15:02,848 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:15:02,958 INFO    Thread-31 :15853 [dir_watcher.py:_on_file_modified():292] file/dir modified: /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/files/conda-environment.yaml
+2022-12-10 22:15:02,959 INFO    Thread-31 :15853 [dir_watcher.py:_on_file_created():275] file/dir created: /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/files/wandb-metadata.json
+2022-12-10 22:15:03,070 DEBUG   SenderThread:15853 [sender.py:send():303] send: telemetry
+2022-12-10 22:15:03,538 INFO    Thread-34 :15853 [upload_job.py:push():143] Uploaded file /tmp/tmpos1i6sviwandb/1hts4l4v-wandb-metadata.json
+2022-12-10 22:15:18,072 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:15:18,073 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:15:18,963 INFO    Thread-31 :15853 [dir_watcher.py:_on_file_created():275] file/dir created: /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/files/output.log
+2022-12-10 22:15:20,964 INFO    Thread-31 :15853 [dir_watcher.py:_on_file_modified():292] file/dir modified: /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/files/output.log
+2022-12-10 22:15:30,968 INFO    Thread-31 :15853 [dir_watcher.py:_on_file_modified():292] file/dir modified: /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/files/config.yaml
+2022-12-10 22:15:33,290 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:15:33,290 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:15:48,507 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:15:48,507 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:16:00,177 DEBUG   SystemMonitor:15853 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2022-12-10 22:16:00,178 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:16:03,730 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:16:03,730 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:16:18,950 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:16:18,951 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:16:30,178 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:16:34,207 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:16:34,208 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:16:42,998 INFO    Thread-31 :15853 [dir_watcher.py:_on_file_modified():292] file/dir modified: /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/files/output.log
+2022-12-10 22:16:49,429 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:16:49,429 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:16:57,003 INFO    Thread-31 :15853 [dir_watcher.py:_on_file_modified():292] file/dir modified: /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/files/output.log
+2022-12-10 22:17:00,179 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:17:04,651 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:17:04,651 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:17:17,010 INFO    Thread-31 :15853 [dir_watcher.py:_on_file_modified():292] file/dir modified: /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/files/output.log
+2022-12-10 22:17:19,011 INFO    Thread-31 :15853 [dir_watcher.py:_on_file_modified():292] file/dir modified: /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/files/output.log
+2022-12-10 22:17:19,871 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:17:19,872 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:17:30,180 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:17:35,095 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:17:35,095 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:17:50,310 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:17:50,310 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:18:00,181 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:18:05,531 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:18:05,531 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:18:20,748 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:18:20,748 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:18:30,181 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:18:35,964 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:18:35,964 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:18:51,185 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:18:51,186 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:19:00,182 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:19:06,407 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:19:06,407 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:19:21,626 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:19:21,626 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:19:30,182 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:19:36,847 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:19:36,847 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:19:52,065 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:19:52,066 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:20:00,183 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:20:07,284 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:20:07,284 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:20:22,507 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:20:22,507 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:20:30,184 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:20:37,743 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:20:37,743 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:20:52,965 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:20:52,966 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:21:00,185 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:21:08,640 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:21:08,640 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:21:23,860 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:21:23,861 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:21:30,185 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:21:39,099 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:21:39,100 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:21:54,323 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:21:54,323 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:22:00,186 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:22:09,546 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:22:09,547 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:22:24,774 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:22:24,774 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:22:30,187 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:22:39,995 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:22:39,995 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:22:55,218 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:22:55,219 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:23:00,188 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:23:10,440 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:23:10,440 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:23:25,659 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:23:25,660 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:23:30,189 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:23:40,885 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:23:40,885 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:23:56,103 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:23:56,104 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:24:00,190 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:24:11,323 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:24:11,323 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:24:26,548 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:24:26,548 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:24:30,190 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:24:41,767 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:24:41,767 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:24:56,990 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:24:56,990 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:25:00,191 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:25:12,207 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:25:12,208 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:25:27,428 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:25:27,428 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:25:30,192 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:25:42,648 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:25:42,648 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:25:57,867 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:25:57,867 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:26:00,192 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:26:13,086 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:26:13,086 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:26:28,308 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:26:28,308 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:26:30,193 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:26:43,527 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:26:43,528 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:26:58,746 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:26:58,746 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:27:00,194 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:27:13,969 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:27:13,970 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:27:29,190 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:27:29,190 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:27:30,194 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:27:44,409 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:27:44,409 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:27:59,629 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:27:59,630 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:28:00,195 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:28:14,846 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:28:14,847 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:28:30,061 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:28:30,061 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:28:30,277 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:28:45,280 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:28:45,280 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:29:00,196 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:29:00,502 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:29:00,503 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:29:15,721 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:29:15,721 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:29:30,197 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:29:30,937 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:29:30,937 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:29:46,154 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:29:46,155 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:30:00,198 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:30:01,374 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:30:01,375 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:30:16,590 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:30:16,590 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:30:30,198 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:30:31,807 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:30:31,808 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:30:47,034 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:30:47,034 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:31:00,199 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:31:02,256 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:31:02,256 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:31:17,480 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:31:17,480 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:31:30,199 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:31:32,699 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:31:32,700 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:31:47,919 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:31:47,919 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:32:00,200 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:32:03,140 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-10 22:32:03,140 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: stop_status
+2022-12-10 22:32:04,204 DEBUG   SenderThread:15853 [sender.py:send():303] send: exit
+2022-12-10 22:32:04,205 INFO    SenderThread:15853 [sender.py:send_exit():442] handling exit code: 0
+2022-12-10 22:32:04,205 INFO    SenderThread:15853 [sender.py:send_exit():444] handling runtime: 1024
+2022-12-10 22:32:04,205 INFO    SenderThread:15853 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-10 22:32:04,205 INFO    SenderThread:15853 [sender.py:send_exit():450] send defer
+2022-12-10 22:32:04,205 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: defer
+2022-12-10 22:32:04,205 INFO    HandlerThread:15853 [handler.py:handle_request_defer():162] handle defer: 0
+2022-12-10 22:32:04,205 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: defer
+2022-12-10 22:32:04,206 INFO    SenderThread:15853 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-12-10 22:32:04,206 INFO    SenderThread:15853 [sender.py:transition_state():463] send defer: 1
+2022-12-10 22:32:04,206 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: defer
+2022-12-10 22:32:04,206 INFO    HandlerThread:15853 [handler.py:handle_request_defer():162] handle defer: 1
+2022-12-10 22:32:04,206 INFO    HandlerThread:15853 [system_monitor.py:finish():160] Stopping system monitor
+2022-12-10 22:32:04,207 DEBUG   SystemMonitor:15853 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2022-12-10 22:32:04,207 DEBUG   SystemMonitor:15853 [system_monitor.py:_start():141] Publishing last batch of metrics
+2022-12-10 22:32:04,208 INFO    HandlerThread:15853 [interfaces.py:finish():173] Joined cpu
+2022-12-10 22:32:04,208 INFO    HandlerThread:15853 [interfaces.py:finish():173] Joined disk
+2022-12-10 22:32:04,234 INFO    HandlerThread:15853 [interfaces.py:finish():173] Joined gpu
+2022-12-10 22:32:04,234 INFO    HandlerThread:15853 [interfaces.py:finish():173] Joined memory
+2022-12-10 22:32:04,234 INFO    HandlerThread:15853 [interfaces.py:finish():173] Joined network
+2022-12-10 22:32:04,234 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: defer
+2022-12-10 22:32:04,234 INFO    SenderThread:15853 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-12-10 22:32:04,234 INFO    SenderThread:15853 [sender.py:transition_state():463] send defer: 2
+2022-12-10 22:32:04,234 DEBUG   SenderThread:15853 [sender.py:send():303] send: stats
+2022-12-10 22:32:04,235 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: defer
+2022-12-10 22:32:04,235 INFO    HandlerThread:15853 [handler.py:handle_request_defer():162] handle defer: 2
+2022-12-10 22:32:04,235 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: defer
+2022-12-10 22:32:04,235 INFO    SenderThread:15853 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-12-10 22:32:04,235 INFO    SenderThread:15853 [sender.py:transition_state():463] send defer: 3
+2022-12-10 22:32:04,235 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: defer
+2022-12-10 22:32:04,235 INFO    HandlerThread:15853 [handler.py:handle_request_defer():162] handle defer: 3
+2022-12-10 22:32:04,235 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: defer
+2022-12-10 22:32:04,236 INFO    SenderThread:15853 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-12-10 22:32:04,236 INFO    SenderThread:15853 [sender.py:transition_state():463] send defer: 4
+2022-12-10 22:32:04,236 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: defer
+2022-12-10 22:32:04,236 INFO    HandlerThread:15853 [handler.py:handle_request_defer():162] handle defer: 4
+2022-12-10 22:32:04,236 DEBUG   SenderThread:15853 [sender.py:send():303] send: summary
+2022-12-10 22:32:04,236 INFO    SenderThread:15853 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-10 22:32:04,236 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: defer
+2022-12-10 22:32:04,236 INFO    SenderThread:15853 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-12-10 22:32:04,236 INFO    SenderThread:15853 [sender.py:transition_state():463] send defer: 5
+2022-12-10 22:32:04,237 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: defer
+2022-12-10 22:32:04,237 INFO    HandlerThread:15853 [handler.py:handle_request_defer():162] handle defer: 5
+2022-12-10 22:32:04,237 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: defer
+2022-12-10 22:32:04,237 INFO    SenderThread:15853 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-12-10 22:32:04,237 INFO    SenderThread:15853 [sender.py:transition_state():463] send defer: 6
+2022-12-10 22:32:04,237 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: defer
+2022-12-10 22:32:04,237 INFO    HandlerThread:15853 [handler.py:handle_request_defer():162] handle defer: 6
+2022-12-10 22:32:04,237 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: defer
+2022-12-10 22:32:04,237 INFO    SenderThread:15853 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-12-10 22:32:04,367 INFO    Thread-31 :15853 [dir_watcher.py:_on_file_modified():292] file/dir modified: /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/files/wandb-summary.json
+2022-12-10 22:32:05,205 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: poll_exit
+2022-12-10 22:32:05,307 INFO    SenderThread:15853 [sender.py:transition_state():463] send defer: 7
+2022-12-10 22:32:05,307 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: poll_exit
+2022-12-10 22:32:05,308 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: defer
+2022-12-10 22:32:05,308 INFO    HandlerThread:15853 [handler.py:handle_request_defer():162] handle defer: 7
+2022-12-10 22:32:05,308 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: defer
+2022-12-10 22:32:05,308 INFO    SenderThread:15853 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-12-10 22:32:05,309 INFO    SenderThread:15853 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-12-10 22:32:05,367 INFO    Thread-31 :15853 [dir_watcher.py:_on_file_modified():292] file/dir modified: /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/files/output.log
+2022-12-10 22:32:05,368 INFO    SenderThread:15853 [dir_watcher.py:finish():392] scan: /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/files
+2022-12-10 22:32:05,368 INFO    SenderThread:15853 [dir_watcher.py:finish():406] scan save: /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/files/config.yaml config.yaml
+2022-12-10 22:32:05,368 INFO    SenderThread:15853 [dir_watcher.py:finish():406] scan save: /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/files/wandb-metadata.json wandb-metadata.json
+2022-12-10 22:32:05,368 INFO    SenderThread:15853 [dir_watcher.py:finish():406] scan save: /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/files/wandb-summary.json wandb-summary.json
+2022-12-10 22:32:05,372 INFO    SenderThread:15853 [dir_watcher.py:finish():406] scan save: /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/files/output.log output.log
+2022-12-10 22:32:05,375 INFO    SenderThread:15853 [dir_watcher.py:finish():406] scan save: /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/files/conda-environment.yaml conda-environment.yaml
+2022-12-10 22:32:05,379 INFO    SenderThread:15853 [dir_watcher.py:finish():406] scan save: /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/files/requirements.txt requirements.txt
+2022-12-10 22:32:05,382 INFO    SenderThread:15853 [sender.py:transition_state():463] send defer: 8
+2022-12-10 22:32:05,386 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: defer
+2022-12-10 22:32:05,386 INFO    HandlerThread:15853 [handler.py:handle_request_defer():162] handle defer: 8
+2022-12-10 22:32:05,386 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: defer
+2022-12-10 22:32:05,386 INFO    SenderThread:15853 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-12-10 22:32:05,386 INFO    SenderThread:15853 [file_pusher.py:finish():168] shutting down file pusher
+2022-12-10 22:32:06,096 INFO    Thread-35 :15853 [upload_job.py:push():143] Uploaded file /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/files/config.yaml
+2022-12-10 22:32:06,096 INFO    Thread-37 :15853 [upload_job.py:push():143] Uploaded file /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/files/output.log
+2022-12-10 22:32:06,107 INFO    Thread-39 :15853 [upload_job.py:push():143] Uploaded file /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/files/requirements.txt
+2022-12-10 22:32:06,119 INFO    Thread-36 :15853 [upload_job.py:push():143] Uploaded file /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/files/wandb-summary.json
+2022-12-10 22:32:06,126 INFO    Thread-38 :15853 [upload_job.py:push():143] Uploaded file /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/files/conda-environment.yaml
+2022-12-10 22:32:06,206 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: poll_exit
+2022-12-10 22:32:06,206 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: poll_exit
+2022-12-10 22:32:06,326 INFO    Thread-30 :15853 [sender.py:transition_state():463] send defer: 9
+2022-12-10 22:32:06,327 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: defer
+2022-12-10 22:32:06,327 INFO    HandlerThread:15853 [handler.py:handle_request_defer():162] handle defer: 9
+2022-12-10 22:32:06,327 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: defer
+2022-12-10 22:32:06,327 INFO    SenderThread:15853 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-12-10 22:32:06,327 INFO    SenderThread:15853 [file_pusher.py:join():173] waiting for file pusher
+2022-12-10 22:32:06,327 INFO    SenderThread:15853 [sender.py:transition_state():463] send defer: 10
+2022-12-10 22:32:06,328 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: defer
+2022-12-10 22:32:06,328 INFO    HandlerThread:15853 [handler.py:handle_request_defer():162] handle defer: 10
+2022-12-10 22:32:06,328 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: defer
+2022-12-10 22:32:06,328 INFO    SenderThread:15853 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-12-10 22:32:06,909 INFO    SenderThread:15853 [sender.py:transition_state():463] send defer: 11
+2022-12-10 22:32:06,910 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: defer
+2022-12-10 22:32:06,910 INFO    HandlerThread:15853 [handler.py:handle_request_defer():162] handle defer: 11
+2022-12-10 22:32:06,910 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: defer
+2022-12-10 22:32:06,910 INFO    SenderThread:15853 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-12-10 22:32:06,910 INFO    SenderThread:15853 [sender.py:transition_state():463] send defer: 12
+2022-12-10 22:32:06,911 DEBUG   SenderThread:15853 [sender.py:send():303] send: final
+2022-12-10 22:32:06,911 DEBUG   SenderThread:15853 [sender.py:send():303] send: footer
+2022-12-10 22:32:06,911 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: defer
+2022-12-10 22:32:06,911 INFO    HandlerThread:15853 [handler.py:handle_request_defer():162] handle defer: 12
+2022-12-10 22:32:06,911 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: defer
+2022-12-10 22:32:06,911 INFO    SenderThread:15853 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-12-10 22:32:06,912 DEBUG   HandlerThread:15853 [handler.py:handle_request():139] handle_request: poll_exit
+2022-12-10 22:32:06,912 DEBUG   SenderThread:15853 [sender.py:send_request():317] send_request: poll_exit
+2022-12-10 22:32:13,576 WARNING StreamThr :15853 [internal.py:is_dead():385] Internal process exiting, parent pid 15801 disappeared
+2022-12-10 22:32:13,576 ERROR   StreamThr :15853 [internal.py:wandb_internal():147] Internal process shutdown.
+2022-12-10 22:32:13,912 INFO    WriterThread:15853 [datastore.py:close():279] close: /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/run-3hbh9yan.wandb
+2022-12-10 22:32:13,913 INFO    SenderThread:15853 [sender.py:finish():1331] shutting down sender
+2022-12-10 22:32:13,913 INFO    SenderThread:15853 [file_pusher.py:finish():168] shutting down file pusher
+2022-12-10 22:32:13,914 INFO    SenderThread:15853 [file_pusher.py:join():173] waiting for file pusher
+2022-12-10 22:32:13,920 INFO    HandlerThread:15853 [handler.py:finish():814] shutting down handler

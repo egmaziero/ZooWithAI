@@ -1,0 +1,48 @@
+
+Number of lines before pre-processing 27546
+Number of lines before pre-processing:  27546
+Number of lines before pre-processing: 27546
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 27546 entries, 0 to 28485
+Data columns (total 8 columns):
+ #   Column         Non-Null Count  Dtype
+---  ------         --------------  -----
+ 0   Date           27546 non-null  object
+ 1   gx             27546 non-null  int64
+ 2   gy             27546 non-null  int64
+ 3   gz             27546 non-null  int64
+ 4   axc            27546 non-null  float64
+ 5   ayc            27546 non-null  float64
+ 6   azc            27546 non-null  float64
+ 7   Comportamento  27546 non-null  object
+dtypes: float64(3), int64(3), object(2)
+memory usage: 1.9+ MB
+Number of lines before pre-processing: 27546
+Number of lines after pre-processing: 18017
+Scores: [78.55822551 80.59149723 83.1792976  78.74306839 78.18853974 77.22222222
+ 76.85185185 81.48148148 80.55555556 79.62962963]
+Mean: 79.50013692065448
+Standard deviation: 1.8752770444141265
+              precision    recall  f1-score   support
+        Ocio       0.79      0.74      0.76      4065
+     Pastejo       0.79      0.83      0.81      4490
+   Ruminação       0.79      0.81      0.80      4057
+    accuracy                           0.79     12612
+   macro avg       0.79      0.79      0.79     12612
+weighted avg       0.79      0.79      0.79     12612
+Accuracy:  79.29749444973041
+Cohen's K:  0.6888359288373008
+Scores: [74.86136784 76.70979667 80.03696858 76.70979667 77.07948244 74.07407407
+ 74.81481481 79.07407407 78.33333333 76.2962963 ]
+Mean: 76.7990004792223
+Standard deviation: 1.8297133041193576
+              precision    recall  f1-score   support
+        Ocio       0.72      0.77      0.75      4065
+     Pastejo       0.79      0.78      0.78      4490
+   Ruminação       0.80      0.76      0.78      4057
+    accuracy                           0.77     12612
+   macro avg       0.77      0.77      0.77     12612
+weighted avg       0.77      0.77      0.77     12612
+Accuracy:  76.93466539803362
+Cohen's K:  0.6537305809071885
+Error in callback <function flush_figures at 0x7f666fc25b80> (for post_execute):

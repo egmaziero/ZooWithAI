@@ -1,0 +1,28 @@
+
+Number of lines after pre-processing: 18017
+Scores: [78.18853974 80.40665434 83.54898336 78.74306839 79.44444444 77.59259259
+ 78.88888889 80.55555556 79.07407407 79.81481481]
+Mean: 79.62576162114055
+Standard deviation: 1.5735459007934698
+              precision    recall  f1-score   support
+        Ocio       0.82      0.74      0.78      4061
+     Pastejo       0.80      0.84      0.82      4498
+   Ruminação       0.80      0.83      0.81      4053
+    accuracy                           0.80     12612
+   macro avg       0.80      0.80      0.80     12612
+weighted avg       0.80      0.80      0.80     12612
+Accuracy:  80.38376149698699
+Cohen's K:  0.7051271163911834
+Scores: [75.60073937 78.00369686 80.96118299 74.86136784 79.25925926 75.
+ 77.77777778 77.96296296 77.22222222 77.77777778]
+Mean: 77.44269870609983
+Standard deviation: 1.8044678942897106
+              precision    recall  f1-score   support
+        Ocio       0.74      0.78      0.76      4061
+     Pastejo       0.80      0.78      0.79      4498
+   Ruminação       0.80      0.78      0.79      4053
+    accuracy                           0.78     12612
+   macro avg       0.78      0.78      0.78     12612
+weighted avg       0.78      0.78      0.78     12612
+Accuracy:  77.94957183634634
+Cohen's K:  0.6690093189229498

@@ -1,0 +1,38 @@
+2022-12-10 22:14:50,943 INFO    MainThread:15801 [wandb_setup.py:_flush():68] Configure stats pid to 15801
+2022-12-10 22:14:50,943 INFO    MainThread:15801 [wandb_setup.py:_flush():68] Loading settings from /home/caio/.config/wandb/settings
+2022-12-10 22:14:50,943 INFO    MainThread:15801 [wandb_setup.py:_flush():68] Loading settings from /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/settings
+2022-12-10 22:14:50,943 INFO    MainThread:15801 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-12-10 22:14:50,943 INFO    MainThread:15801 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-12-10 22:14:50,943 INFO    MainThread:15801 [wandb_init.py:_log_setup():476] Logging user logs to /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/logs/debug.log
+2022-12-10 22:14:50,943 INFO    MainThread:15801 [wandb_init.py:_log_setup():477] Logging internal logs to /mnt/data/Documents/UFLA/Iniciação Científica/ZooWithAI/(In development) Lazaro - Trabalhos com novo sensor/wandb/run-20221210_221450-3hbh9yan/logs/debug-internal.log
+2022-12-10 22:14:50,943 INFO    MainThread:15801 [wandb_init.py:init():516] calling init triggers
+2022-12-10 22:14:50,943 INFO    MainThread:15801 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-12-10 22:14:50,943 INFO    MainThread:15801 [wandb_init.py:init():535] re-initializing run, found existing run on stack: 3b6fl5zj
+2022-12-10 22:14:50,944 INFO    MainThread:15801 [wandb_run.py:_finish():1746] finishing run caiomtls/accelerometer_behavior_project/3b6fl5zj
+2022-12-10 22:14:50,944 INFO    MainThread:15801 [jupyter.py:save_history():448] not saving jupyter history
+2022-12-10 22:14:50,944 INFO    MainThread:15801 [jupyter.py:save_ipynb():378] not saving jupyter notebook
+2022-12-10 22:14:50,944 INFO    MainThread:15801 [wandb_init.py:_jupyter_teardown():408] cleaning up jupyter logic
+2022-12-10 22:14:50,944 INFO    MainThread:15801 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2022-12-10 22:14:50,944 INFO    MainThread:15801 [wandb_run.py:_restore():1932] restore
+2022-12-10 22:14:50,945 INFO    MainThread:15801 [wandb_run.py:_restore():1938] restore done
+2022-12-10 22:14:58,456 INFO    MainThread:15801 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-12-10 22:14:58,456 INFO    MainThread:15801 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-12-10 22:14:58,458 INFO    MainThread:15801 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2022-12-10 22:14:58,463 INFO    MainThread:15801 [wandb_init.py:init():569] starting backend
+2022-12-10 22:14:58,463 INFO    MainThread:15801 [wandb_init.py:init():573] setting up manager
+2022-12-10 22:14:58,465 INFO    MainThread:15801 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-12-10 22:14:58,466 INFO    MainThread:15801 [wandb_init.py:init():580] backend started and connected
+2022-12-10 22:14:58,474 INFO    MainThread:15801 [wandb_run.py:_label_probe_notebook():1113] probe notebook
+2022-12-10 22:14:58,475 INFO    MainThread:15801 [wandb_run.py:_label_probe_notebook():1123] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-12-10 22:14:58,475 INFO    MainThread:15801 [wandb_init.py:init():658] updated telemetry
+2022-12-10 22:14:58,495 INFO    MainThread:15801 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2022-12-10 22:14:59,958 INFO    MainThread:15801 [wandb_run.py:_on_init():2000] communicating current version
+2022-12-10 22:15:00,168 INFO    MainThread:15801 [wandb_run.py:_on_init():2004] got version response upgrade_message: "wandb version 0.13.6 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-12-10 22:15:00,168 INFO    MainThread:15801 [wandb_init.py:init():728] starting run threads in backend
+2022-12-10 22:15:02,848 INFO    MainThread:15801 [wandb_run.py:_console_start():1980] atexit reg
+2022-12-10 22:15:02,848 INFO    MainThread:15801 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-12-10 22:15:02,849 INFO    MainThread:15801 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-12-10 22:15:02,849 INFO    MainThread:15801 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-12-10 22:15:02,849 INFO    MainThread:15801 [wandb_init.py:init():765] run started, returning control to user process
