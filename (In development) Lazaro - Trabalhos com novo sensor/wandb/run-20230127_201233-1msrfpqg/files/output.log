@@ -1,0 +1,35 @@
+
+Number of lines before pre-processing: 27546
+Number of lines after pre-processing: 18017
+/tmp/ipykernel_6910/2799943242.py:20: RuntimeWarning: divide by zero encountered in true_divide
+  df['inclination'] = (np.arctan((np.sqrt(np.square(df.axc.values) + np.square(df.ayc.values)))/df.azc.values)*180/np.pi)
+/tmp/ipykernel_6910/2799943242.py:20: RuntimeWarning: divide by zero encountered in true_divide
+  df['inclination'] = (np.arctan((np.sqrt(np.square(df.axc.values) + np.square(df.ayc.values)))/df.azc.values)*180/np.pi)
+/tmp/ipykernel_6910/1622170240.py:20: RuntimeWarning: divide by zero encountered in true_divide
+  df['inclination'] = (np.arctan((np.sqrt(np.square(df.axc.values) + np.square(df.ayc.values)))/df.azc.values)*180/np.pi)
+Scores: [78.55822551 80.22181146 82.99445471 78.00369686 80.         77.03703704
+ 79.62962963 80.92592593 80.92592593 81.11111111]
+Mean: 79.94078181693708
+Standard deviation: 1.6404389844467713
+              precision    recall  f1-score   support
+        Ocio       0.82      0.75      0.78      4061
+     Pastejo       0.80      0.83      0.82      4498
+   Ruminação       0.80      0.83      0.81      4053
+    accuracy                           0.80     12612
+   macro avg       0.81      0.80      0.80     12612
+weighted avg       0.81      0.80      0.80     12612
+Accuracy:  80.4789089755788
+Cohen's K:  0.7066137733737828
+Scores: [77.07948244 78.18853974 82.0702403  77.07948244 78.7037037  75.37037037
+ 77.77777778 79.25925926 78.14814815 80.18518519]
+Mean: 78.38621893612653
+Standard deviation: 1.750648663975768
+              precision    recall  f1-score   support
+        Ocio       0.73      0.79      0.76      4061
+     Pastejo       0.81      0.78      0.79      4498
+   Ruminação       0.81      0.78      0.79      4053
+    accuracy                           0.78     12612
+   macro avg       0.78      0.78      0.78     12612
+weighted avg       0.78      0.78      0.78     12612
+Accuracy:  78.17158261972725
+Cohen's K:  0.672400244572993
